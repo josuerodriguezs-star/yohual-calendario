@@ -1,0 +1,28 @@
+name: Vigilancia diaria
+on:
+  schedule:
+    - cron: '0 14 * * *'      # 8:00 a.m. hora de Ciudad de México
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: vigilancia
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Revisar fechas y páginas oficiales
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: node scripts/vigilancia.mjs
+      - name: Regenerar calendario.ics
+        run: node scripts/build-ics.mjs
+      - name: Guardar estado
+        run: |
+          git config user.name "calendario-bot"
+          git config user.email "bot@yohual.com"
+          git add state.json calendario.ics
+          git diff --cached --quiet || (git commit -m "Vigilancia: actualizar estado" && git push)

@@ -1,0 +1,702 @@
+{
+ "meta": {
+  "updated": "2026-10-27",
+  "note": "Edita este archivo para actualizar el calendario. Tras verificar un premio, cambia su campo verified."
+ },
+ "sourceUrls": {
+  "7": "https://www.learningtechnologies.co.uk/learning-tech-awards/enter-an-award/presentation-guidelines",
+  "8": "https://www.ifema.es/simo-educacion/doc/bases-convocatoria-simo-experiencias/bases-participacion-simo-experiencias-2026.pdf",
+  "11": "https://qsrea.evessiocloud.com/reimagine2026/en/page/frequently-asked-questions",
+  "13": "https://bettawards.com/",
+  "14": "https://gesawards.io/",
+  "16": "https://www.unesco.org/en/prizes/ict-education",
+  "17": "https://edtechbreakthrough.com/",
+  "19": "https://brasil.bettshow.com/bett-blog/bett-brasil-edtech-awards-abre-inscricoes-para-startups-que-estao-transformando-educacao",
+  "20": "https://tecprize.tec.mx/es",
+  "21": "https://www.rie360.mx/premio.html",
+  "22": "https://www.edtechdigest.com/enter-awards/"
+ },
+ "awards": [
+  {
+   "name": "USDLA",
+   "region": "Estados Unidos · Internacional",
+   "frequency": "Anual",
+   "focus": "Educación a distancia e innovación",
+   "prize": "Reconocimiento oficial; dotación económica no confirmada.",
+   "winners": "6 categorías; total de ganadores no confirmado.",
+   "publication": "Difusión de ganadores; expedientes completos no confirmados.",
+   "url": "https://usdla.org/international-awards/",
+   "linkLabel": "Convocatoria 2027",
+   "status": "Abierta",
+   "events": [
+    {
+     "date": "2027-01-31",
+     "label": "Cierre de postulaciones",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-03",
+     "label": "Notificación de ganadores: semana del 15",
+     "kind": "Resultados"
+    },
+    {
+     "date": "2027-06-21",
+     "label": "Conferencia y entrega · 21–24 junio",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 1,
+   "color": "#2458c4",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "MEDEA",
+   "region": "Bélgica · Internacional",
+   "frequency": "Anual",
+   "focus": "Medios y recursos digitales educativos",
+   "prize": "Distinciones de medios educativos, jurado, público y ciencia. Participación gratuita.",
+   "winners": "4 distinciones; pueden coincidir en un proyecto.",
+   "publication": "Reseñas, materiales y enlaces según proyecto.",
+   "url": "https://media-and-learning.eu/awards/",
+   "linkLabel": "Convocatoria 2027",
+   "status": "Abierta",
+   "events": [
+    {
+     "date": "2027-02-28",
+     "label": "Cierre de postulaciones",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-04",
+     "label": "Notificación de finalistas",
+     "kind": "Resultados"
+    },
+    {
+     "date": "2027-06-16",
+     "label": "Premios durante el congreso · 16–17 junio",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 2,
+   "color": "#a53663",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "ETIH Innovation",
+   "region": "Internacional · Online",
+   "frequency": "Anual · desde 2026",
+   "focus": "IA, educación superior y formación laboral",
+   "prize": "Certificado digital, insignias y cobertura editorial.",
+   "winners": "26 categorías; posibles menciones adicionales.",
+   "publication": "Listas y cobertura; no expedientes completos.",
+   "url": "https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-the-edtech-innovation-hub-awards-2027",
+   "linkLabel": "Convocatoria 2027",
+   "status": "Abierta",
+   "events": [
+    {
+     "date": "2026-12-18",
+     "label": "Fin de tarifa anticipada",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-02-26",
+     "label": "Cierre · 23:59, hora del Reino Unido",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-03-08",
+     "label": "Anuncio de finalistas",
+     "kind": "Resultados"
+    },
+    {
+     "date": "2027-04-12",
+     "label": "Anuncio de ganadores online",
+     "kind": "Resultados"
+    }
+   ],
+   "id": 3,
+   "color": "#097c69",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "CODiE",
+   "region": "Estados Unidos · Internacional",
+   "frequency": "Anual",
+   "focus": "Productos y plataformas tecnológicas",
+   "prize": "Distinción CODiE y materiales promocionales.",
+   "winners": "Por categoría; puede haber empates.",
+   "publication": "Productos y empresas ganadoras por categoría.",
+   "url": "https://codieawards.com/",
+   "linkLabel": "Calendario 2027",
+   "status": "Próxima apertura",
+   "events": [
+    {
+     "date": "2027-01-11",
+     "label": "Apertura de Product Awards",
+     "kind": "Apertura"
+    },
+    {
+     "date": "2027-02-05",
+     "label": "Fin de recepción anticipada",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-03-05",
+     "label": "Fin de recepción ordinaria",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-04-02",
+     "label": "Cierre tardío definitivo",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-05-28",
+     "label": "Fecha límite de demostración",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-06-23",
+     "label": "Anuncio de finalistas",
+     "kind": "Resultados"
+    },
+    {
+     "date": "2027-07-20",
+     "label": "Anuncio de ganadores",
+     "kind": "Resultados"
+    }
+   ],
+   "id": 4,
+   "color": "#7d45b5",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "IELA",
+   "region": "Internacional",
+   "frequency": "Anual · dos divisiones",
+   "focus": "Cursos y herramientas de e-learning",
+   "prize": "Gold, Silver y Bronze en Academic y Business.",
+   "winners": "Variable por categoría y división.",
+   "publication": "Proyectos, instituciones y representantes; no necesariamente cursos completos.",
+   "url": "https://www.ielassoc.org/about-the-iela-awards",
+   "linkLabel": "Aperturas anunciadas 2027",
+   "status": "Próxima apertura",
+   "events": [
+    {
+     "date": "2026-12",
+     "label": "Apertura Business · día pendiente",
+     "kind": "Apertura"
+    },
+    {
+     "date": "2027-03",
+     "label": "Apertura Academic · día pendiente",
+     "kind": "Apertura"
+    },
+    {
+     "date": "2026-10-01",
+     "label": "Antecedente: entrega Academic 2026",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 5,
+   "color": "#ad5609",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "Africa Tech Summit",
+   "region": "Kenia · Ecosistema africano",
+   "frequency": "Segunda edición anunciada para 2027",
+   "focus": "Impacto de tecnología educativa en África",
+   "prize": "Trofeo, dos entradas al summit y difusión.",
+   "winners": "Una distinción EdTech dentro de varias categorías.",
+   "publication": "Hall of Fame y enlaces a organizaciones.",
+   "url": "https://www.africatechsummit.com/awards/",
+   "linkLabel": "Convocatoria y premios 2027",
+   "status": "Abierta",
+   "events": [
+    {
+     "date": "2026-11",
+     "label": "Cierre de candidaturas · día pendiente",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2027-01",
+     "label": "Anuncio de finalistas",
+     "kind": "Resultados"
+    },
+    {
+     "date": "2027-02-11",
+     "label": "Premiación en Nairobi",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 6,
+   "color": "#3c6d31",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "Learning Technologies",
+   "region": "Reino Unido · Internacional",
+   "frequency": "Anual",
+   "focus": "Aprendizaje digital y formación laboral",
+   "prize": "Gold, Silver y Bronze; reconocimiento en gala.",
+   "winners": "Varios niveles por categoría; total variable.",
+   "publication": "Proyectos y comentarios del jurado.",
+   "url": "https://www.learningtechnologies.co.uk/2025-winners",
+   "linkLabel": "Últimos ganadores publicados: 2025",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-07-24",
+     "label": "Cierre de candidaturas 2026",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2026-11-11",
+     "label": "Gala en Londres",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 7,
+   "color": "#ad3542",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "SIMO EDUCACIÓN",
+   "region": "España e Iberoamérica",
+   "frequency": "Anual",
+   "focus": "Experiencias docentes innovadoras",
+   "prize": "Diploma y sello digital. Apoyo de gastos para experiencias seleccionadas, según organización.",
+   "winners": "Hasta 10 ganadoras entre 35 seleccionadas; categorías pueden quedar desiertas.",
+   "publication": "Reseñas y presentaciones; memorias completas no confirmadas.",
+   "url": "https://www.ifema.es/simo-educacion/noticias/35-experiencias-finalistas-xiv-premios-innovacion-educativa",
+   "linkLabel": "Selección publicada 2026; convocatoria cerrada",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-11-11",
+     "label": "Presentaciones y premios durante SIMO · 11–13 noviembre",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 8,
+   "color": "#16718f",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "OLC Awards",
+   "region": "Estados Unidos · Internacional",
+   "frequency": "Anual · varias modalidades",
+   "focus": "Educación online e híbrida",
+   "prize": "Distinciones por modalidad; Best-in-Track entrega placa.",
+   "winners": "Variable; agrupa distintos programas.",
+   "publication": "Listas y reseñas de programas y premiados.",
+   "url": "https://onlinelearningconsortium.org/olc-in-the-news/2026/10/accelerate-2026-award-recipients/",
+   "linkLabel": "Últimos ganadores: 2026",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-11-16",
+     "label": "Reconocimiento durante OLC Accelerate · 16–19 noviembre",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 9,
+   "color": "#704b31",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "Brandon Hall EdTech",
+   "region": "Estados Unidos · Internacional",
+   "frequency": "Anual",
+   "focus": "Tecnología educativa y resultados medibles",
+   "prize": "Gold, Silver, Bronze; certificado digital, logotipo y difusión.",
+   "winners": "Sin cupo fijo: reconocimientos por puntuación.",
+   "publication": "Lista pública; casos con autorización, algunos para miembros.",
+   "url": "https://excellenceawards.brandonhall.com/faq/",
+   "linkLabel": "Calendario y acceso a anteriores ganadores",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-04-20",
+     "label": "Apertura de la edición 2026",
+     "kind": "Apertura"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "Cierre del calendario inicial 2026",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2026-12-03",
+     "label": "Anuncio de ganadores",
+     "kind": "Resultados"
+    }
+   ],
+   "id": 10,
+   "color": "#5753ac",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "QS Reimagine",
+   "region": "Reino Unido · Mundial",
+   "frequency": "Anual",
+   "focus": "Innovación, diseño, evaluación e IA",
+   "prize": "USD 25,000 en efectivo (Global Education); USD 25,000 en créditos de nube (Global EdTech), según FAQ 2026. Oro, plata y bronce en otras distinciones.",
+   "winners": "2 globales y múltiples reconocimientos por categoría y región.",
+   "publication": "Listados, proyectos e instituciones; difusión de casos.",
+   "url": "https://content.qs.com/reimagine2025/2025_QS_Reimagine_Education_Awards_Category_Winners.pdf",
+   "linkLabel": "Últimos ganadores completos: 2025",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-07-31",
+     "label": "Cierre de postulaciones 2026",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2026-12-06",
+     "label": "Conferencia y premios en Londres · 6–8 diciembre",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 11,
+   "color": "#a64387",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "LearnX",
+   "region": "Australia · Internacional",
+   "frequency": "Anual",
+   "focus": "Aprendizaje, talento y EdTech",
+   "prize": "Platinum, Diamond, Gold y Silver; certificado por candidatura. Trofeos pueden tener costo.",
+   "winners": "Múltiples reconocimientos por mérito.",
+   "publication": "Postulaciones confidenciales; no se verificó repositorio abierto.",
+   "url": "https://learnx.live/",
+   "linkLabel": "Página oficial; archivo público de ganadores no verificado",
+   "status": "Próxima apertura",
+   "events": [
+    {
+     "date": "2026-09-23",
+     "label": "Cierre actualizado 2026 según FAQ",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2026-12-08",
+     "label": "Ceremonia en Sídney",
+     "kind": "Premiación"
+    },
+    {
+     "date": "2027-02",
+     "label": "Lanzamiento anunciado · día pendiente",
+     "kind": "Apertura"
+    }
+   ],
+   "id": 12,
+   "color": "#677520",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "Bett Awards",
+   "region": "Reino Unido · Internacional",
+   "frequency": "Anual",
+   "focus": "Productos y servicios educativos",
+   "prize": "Distinción Bett y difusión; menciones Highly Commended.",
+   "winners": "Por categoría más menciones; total variable.",
+   "publication": "Listas y entrevistas a algunos ganadores.",
+   "url": "https://bettawards.com/winners-2026/",
+   "linkLabel": "Últimos ganadores: 2026",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2027-01-20",
+     "label": "Gala en Londres · inscripciones cerradas",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 13,
+   "color": "#b44c23",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "GESAwards",
+   "region": "Mundial · Final en Londres",
+   "frequency": "Ciclo anual entre dos años",
+   "focus": "Startups EdTech",
+   "prize": "Premios de socios, mentoría, difusión y aceleración; monto variable.",
+   "winners": "4 categorías anunciadas, más premios regionales y de socios.",
+   "publication": "Startups y soluciones ganadoras.",
+   "url": "https://gesawards.io/winners/2025",
+   "linkLabel": "Últimos ganadores: edición 2025",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-03",
+     "label": "Lanzamiento de candidaturas 2026",
+     "kind": "Apertura"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "Cierre global; fechas regionales pueden variar",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2026-10",
+     "label": "Semifinales regionales · octubre–noviembre",
+     "kind": "Selección"
+    },
+    {
+     "date": "2027-01",
+     "label": "Final mundial en Bett · día pendiente",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 14,
+   "color": "#23778a",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "WISE Prize",
+   "region": "Catar · Mundial",
+   "frequency": "Bienal · ciclo 2026–2027",
+   "focus": "Soluciones educativas de alto impacto",
+   "prize": "USD 1 millón repartido entre 3 ganadores. Finalistas: USD 100,000–125,000 para desarrollo y mentoría.",
+   "winners": "3 ganadores principales; finalistas financiados por separado.",
+   "publication": "Perfiles, videos y resultados de proyectos.",
+   "url": "https://www.wise-qatar.org/innovation/wise-prize-for-education",
+   "linkLabel": "Programa y ganadores del ciclo 2024–2025",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-05-10",
+     "label": "Apertura del ciclo 2026–2027",
+     "kind": "Apertura"
+    },
+    {
+     "date": "2026-06-27",
+     "label": "Cierre de candidaturas",
+     "kind": "Cierre"
+    },
+    {
+     "date": "2026-Q4",
+     "label": "Anuncio de finalistas · último trimestre",
+     "kind": "Resultados"
+    },
+    {
+     "date": "2027-01",
+     "label": "Inicio del programa de desarrollo",
+     "kind": "Selección"
+    },
+    {
+     "date": "2027-Q4",
+     "label": "Premiación WISE 13 · último trimestre",
+     "kind": "Premiación"
+    }
+   ],
+   "id": 15,
+   "color": "#935a12",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "UNESCO TIC",
+   "region": "Francia · Mundial",
+   "frequency": "Anual",
+   "focus": "Uso educativo responsable de las TIC",
+   "prize": "USD 25,000 por ganador, medalla y diploma.",
+   "winners": "2 proyectos al año.",
+   "publication": "Reseñas y publicaciones sobre los proyectos.",
+   "url": "https://www.unesco.org/en/articles/unesco-ict-prize-awards-dynamic-projects-promoting-creativity-and-critical-thinking-finland-and",
+   "linkLabel": "Últimos ganadores: 2026",
+   "status": "Sin convocatoria confirmada",
+   "events": [
+    {
+     "date": "2026-03-30",
+     "label": "Antecedente: publicación de convocatoria 2026",
+     "kind": "Histórico"
+    },
+    {
+     "date": "2026-09-09",
+     "label": "Antecedente: anuncio de ganadores 2026",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 16,
+   "color": "#32674e",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "EdTech Breakthrough",
+   "region": "Internacional",
+   "frequency": "Anual",
+   "focus": "Empresas, productos y servicios EdTech",
+   "prize": "Reconocimiento y difusión; premio económico no confirmado.",
+   "winners": "Múltiples categorías; total variable.",
+   "publication": "Lista de empresas y soluciones ganadoras.",
+   "url": "https://edtechbreakthrough.com/edtech-2026-winners/",
+   "linkLabel": "Últimos ganadores: 2026",
+   "status": "Sin convocatoria confirmada",
+   "events": [
+    {
+     "date": "2026-01-01",
+     "label": "Antecedente: apertura 2026",
+     "kind": "Histórico"
+    },
+    {
+     "date": "2026-03-21",
+     "label": "Antecedente: cierre 2026",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 17,
+   "color": "#7d4282",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "Bett Asia",
+   "region": "Malasia · Asia-Pacífico",
+   "frequency": "Anual según ediciones recientes",
+   "focus": "Tecnología para transformar la educación",
+   "prize": "Trofeo y logotipo de ganador; distintivo para finalistas.",
+   "winners": "6 categorías 2026 y posibles menciones.",
+   "publication": "Ganadores y menciones; no expedientes completos.",
+   "url": "https://asia.bettshow.com/page/bett-asia-awards",
+   "linkLabel": "Últimos ganadores: 2026",
+   "status": "Sin convocatoria confirmada",
+   "events": [
+    {
+     "date": "2026-09-23",
+     "label": "Antecedente: premiación en Kuala Lumpur",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 18,
+   "color": "#5b648f",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "Bett Brasil EdTech",
+   "region": "Brasil · Participación internacional",
+   "frequency": "Anual reciente",
+   "focus": "Startups educativas",
+   "prize": "Mentoría de 3 meses, estand 2027 y entrevistas según la nota 2026; asignación por lugar requiere consultar bases.",
+   "winners": "6 posiciones publicadas en 2026: 3 en cada una de 2 categorías.",
+   "publication": "Startups, representantes, posiciones y entrevistas.",
+   "url": "https://brasil.bettshow.com/bett-blog/conheca-os-vencedores-premio-edtech-awards-bett-brasil",
+   "linkLabel": "Últimos ganadores: 2026",
+   "status": "Sin convocatoria confirmada",
+   "events": [
+    {
+     "date": "2026-02-09",
+     "label": "Antecedente: difusión de convocatoria 2026",
+     "kind": "Histórico"
+    },
+    {
+     "date": "2026-03-09",
+     "label": "Antecedente: cierre 2026",
+     "kind": "Histórico"
+    },
+    {
+     "date": "2026-05-07",
+     "label": "Antecedente: entrega de premios 2026",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 19,
+   "color": "#a32463",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "TecPrize",
+   "region": "México · Latinoamérica y Caribe",
+   "frequency": "Ediciones anuales recientes",
+   "focus": "Emprendimientos tecnológicos educativos",
+   "prize": "Edición 2025: USD 30,000 / 20,000 / 10,000 y acompañamiento. Montos de otro ciclo no confirmados.",
+   "winners": "3 ganadores entre 10 finalistas (edición 2025).",
+   "publication": "Reseñas de soluciones finalistas y ganadoras.",
+   "url": "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025",
+   "linkLabel": "Últimos ganadores: edición 2025, entregada en 2026",
+   "status": "Cerrada",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "label": "Apertura difundida de TecPrize 2026",
+     "kind": "Apertura"
+    },
+    {
+     "date": "2026-09-30",
+     "label": "Cierre difundido de TecPrize 2026",
+     "kind": "Cierre"
+    }
+   ],
+   "id": 20,
+   "color": "#2c7342",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "RIE 360",
+   "region": "México",
+   "frequency": "Patrón anual reciente",
+   "focus": "Innovación docente en media superior y superior",
+   "prize": "Reconocimiento y presentación; acceso a IFE según antecedentes. Dotación vigente no confirmada.",
+   "winners": "Antecedentes de 3 primeros lugares; cupo nuevo no confirmado.",
+   "publication": "Notas y experiencias; repositorio completo no confirmado.",
+   "url": "https://www.uv.mx/dgdaie/la-universidad-veracruzana-destaca-en-el-premio-rie-360-a-la-innovacion-educativa/",
+   "linkLabel": "Referencia institucional de la final 2026; listado completo no verificado",
+   "status": "Por verificar",
+   "events": [
+    {
+     "date": "2026-01-29",
+     "label": "Antecedente: final durante IFE Conference",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 21,
+   "color": "#875c6a",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "EdTech Digest",
+   "region": "Estados Unidos · Internacional",
+   "frequency": "Anual",
+   "focus": "Productos, líderes y tendencias EdTech",
+   "prize": "Insignias digitales, reconocimiento y comunicación.",
+   "winners": "Múltiples categorías; total variable.",
+   "publication": "Listas de finalistas y ganadores; artículos de algunos casos.",
+   "url": "https://www.edtechdigest.com/2026-finalists-winners/",
+   "linkLabel": "Últimos ganadores: 2026",
+   "status": "Por verificar",
+   "events": [
+    {
+     "date": "2026-03-31",
+     "label": "Antecedente: publicación de resultados 2026",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 22,
+   "color": "#4a6690",
+   "verified": "2026-10-27"
+  },
+  {
+   "name": "enlightED Awards",
+   "region": "España · Internacional",
+   "frequency": "Continuidad de premios por confirmar",
+   "focus": "Startups y prácticas de innovación educativa",
+   "prize": "Reconocimiento y visibilidad según antecedentes; beneficios nuevos no confirmados.",
+   "winners": "Variable por edición; sin cupo futuro confirmado.",
+   "publication": "Reseñas de proyectos ganadores históricos.",
+   "url": "https://www.fundaciontelefonica.com/noticias/enlighted-awards-2021/",
+   "linkLabel": "Último listado verificado en esta investigación: 2021",
+   "status": "Sin convocatoria confirmada",
+   "events": [
+    {
+     "date": "2021-10-21",
+     "label": "Antecedente: ganadores de la edición 2021",
+     "kind": "Histórico"
+    }
+   ],
+   "id": 23,
+   "color": "#6d5926",
+   "verified": "2026-10-27"
+  }
+ ]
+}

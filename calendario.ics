@@ -1,0 +1,823 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yohual.com//Calendario EdTech//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calendario EdTech · premios
+X-WR-TIMEZONE:America/Mexico_City
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:1-0-2027-01-31@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:USDLA · Cierre
+DESCRIPTION:Cierre de postulaciones\nhttps://usdla.org/international-award
+ s/
+URL:https://usdla.org/international-awards/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USDLA: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USDLA: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USDLA: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1-1-2027-03@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:≈ USDLA · Resultados
+DESCRIPTION:Notificación de ganadores: semana del 15 (día por confirmar)\n
+ https://usdla.org/international-awards/
+URL:https://usdla.org/international-awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1-2-2027-06-21@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:USDLA · Premiación
+DESCRIPTION:Conferencia y entrega · 21–24 junio\nhttps://usdla.org/interna
+ tional-awards/
+URL:https://usdla.org/international-awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-0-2027-02-28@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:MEDEA · Cierre
+DESCRIPTION:Cierre de postulaciones\nhttps://media-and-learning.eu/awards/
+URL:https://media-and-learning.eu/awards/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MEDEA: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MEDEA: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MEDEA: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2-1-2027-04@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:≈ MEDEA · Resultados
+DESCRIPTION:Notificación de finalistas (día por confirmar)\nhttps://media-
+ and-learning.eu/awards/
+URL:https://media-and-learning.eu/awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-2-2027-06-16@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:MEDEA · Premiación
+DESCRIPTION:Premios durante el congreso · 16–17 junio\nhttps://media-and-l
+ earning.eu/awards/
+URL:https://media-and-learning.eu/awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3-0-2026-12-18@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ETIH Innovation · Cierre
+DESCRIPTION:Fin de tarifa anticipada\nhttps://www.edtechinnovationhub.com/
+ etih-innovation-awards-2027/about-the-edtech-innovation-hub-awards-2027
+URL:https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-
+ the-edtech-innovation-hub-awards-2027
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ETIH Innovation: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ETIH Innovation: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ETIH Innovation: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3-1-2027-02-26@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:ETIH Innovation · Cierre
+DESCRIPTION:Cierre · 23:59\, hora del Reino Unido\nhttps://www.edtechinnov
+ ationhub.com/etih-innovation-awards-2027/about-the-edtech-innovation-hub-
+ awards-2027
+URL:https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-
+ the-edtech-innovation-hub-awards-2027
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ETIH Innovation: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ETIH Innovation: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ETIH Innovation: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3-2-2027-03-08@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:ETIH Innovation · Resultados
+DESCRIPTION:Anuncio de finalistas\nhttps://www.edtechinnovationhub.com/eti
+ h-innovation-awards-2027/about-the-edtech-innovation-hub-awards-2027
+URL:https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-
+ the-edtech-innovation-hub-awards-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3-3-2027-04-12@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:ETIH Innovation · Resultados
+DESCRIPTION:Anuncio de ganadores online\nhttps://www.edtechinnovationhub.c
+ om/etih-innovation-awards-2027/about-the-edtech-innovation-hub-awards-202
+ 7
+URL:https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-
+ the-edtech-innovation-hub-awards-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-0-2027-01-11@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:CODiE · Apertura
+DESCRIPTION:Apertura de Product Awards\nhttps://codieawards.com/
+URL:https://codieawards.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: apertura en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: apertura en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: apertura en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4-1-2027-02-05@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:CODiE · Cierre
+DESCRIPTION:Fin de recepción anticipada\nhttps://codieawards.com/
+URL:https://codieawards.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4-2-2027-03-05@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:CODiE · Cierre
+DESCRIPTION:Fin de recepción ordinaria\nhttps://codieawards.com/
+URL:https://codieawards.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4-3-2027-04-02@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:CODiE · Cierre
+DESCRIPTION:Cierre tardío definitivo\nhttps://codieawards.com/
+URL:https://codieawards.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4-4-2027-05-28@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:CODiE · Cierre
+DESCRIPTION:Fecha límite de demostración\nhttps://codieawards.com/
+URL:https://codieawards.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CODiE: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4-5-2027-06-23@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:CODiE · Resultados
+DESCRIPTION:Anuncio de finalistas\nhttps://codieawards.com/
+URL:https://codieawards.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-6-2027-07-20@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:CODiE · Resultados
+DESCRIPTION:Anuncio de ganadores\nhttps://codieawards.com/
+URL:https://codieawards.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5-0-2026-12@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:≈ IELA · Apertura
+DESCRIPTION:Apertura Business · día pendiente (día por confirmar)\nhttps:/
+ /www.ielassoc.org/about-the-iela-awards
+URL:https://www.ielassoc.org/about-the-iela-awards
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5-1-2027-03@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:≈ IELA · Apertura
+DESCRIPTION:Apertura Academic · día pendiente (día por confirmar)\nhttps:/
+ /www.ielassoc.org/about-the-iela-awards
+URL:https://www.ielassoc.org/about-the-iela-awards
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-0-2026-11@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:≈ Africa Tech Summit · Cierre
+DESCRIPTION:Cierre de candidaturas · día pendiente (día por confirmar)\nht
+ tps://www.africatechsummit.com/awards/
+URL:https://www.africatechsummit.com/awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-1-2027-01@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:≈ Africa Tech Summit · Resultados
+DESCRIPTION:Anuncio de finalistas (día por confirmar)\nhttps://www.africat
+ echsummit.com/awards/
+URL:https://www.africatechsummit.com/awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-2-2027-02-11@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Africa Tech Summit · Premiación
+DESCRIPTION:Premiación en Nairobi\nhttps://www.africatechsummit.com/awards
+ /
+URL:https://www.africatechsummit.com/awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7-0-2026-07-24@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:Learning Technologies · Cierre
+DESCRIPTION:Cierre de candidaturas 2026\nhttps://www.learningtechnologies.
+ co.uk/2025-winners
+URL:https://www.learningtechnologies.co.uk/2025-winners
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Learning Technologies: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Learning Technologies: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Learning Technologies: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7-1-2026-11-11@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Learning Technologies · Premiación
+DESCRIPTION:Gala en Londres\nhttps://www.learningtechnologies.co.uk/2025-w
+ inners
+URL:https://www.learningtechnologies.co.uk/2025-winners
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-0-2026-11-11@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:SIMO EDUCACIÓN · Premiación
+DESCRIPTION:Presentaciones y premios durante SIMO · 11–13 noviembre\nhttps
+ ://www.ifema.es/simo-educacion/noticias/35-experiencias-finalistas-xiv-pr
+ emios-innovacion-educativa
+URL:https://www.ifema.es/simo-educacion/noticias/35-experiencias-finalista
+ s-xiv-premios-innovacion-educativa
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9-0-2026-11-16@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:OLC Awards · Premiación
+DESCRIPTION:Reconocimiento durante OLC Accelerate · 16–19 noviembre\nhttps
+ ://onlinelearningconsortium.org/olc-in-the-news/2026/10/accelerate-2026-a
+ ward-recipients/
+URL:https://onlinelearningconsortium.org/olc-in-the-news/2026/10/accelerat
+ e-2026-award-recipients/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:10-0-2026-04-20@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:Brandon Hall EdTech · Apertura
+DESCRIPTION:Apertura de la edición 2026\nhttps://excellenceawards.brandonh
+ all.com/faq/
+URL:https://excellenceawards.brandonhall.com/faq/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brandon Hall EdTech: apertura en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brandon Hall EdTech: apertura en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brandon Hall EdTech: apertura en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10-1-2026-09-04@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Brandon Hall EdTech · Cierre
+DESCRIPTION:Cierre del calendario inicial 2026\nhttps://excellenceawards.b
+ randonhall.com/faq/
+URL:https://excellenceawards.brandonhall.com/faq/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brandon Hall EdTech: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brandon Hall EdTech: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brandon Hall EdTech: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10-2-2026-12-03@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Brandon Hall EdTech · Resultados
+DESCRIPTION:Anuncio de ganadores\nhttps://excellenceawards.brandonhall.com
+ /faq/
+URL:https://excellenceawards.brandonhall.com/faq/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:11-0-2026-07-31@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:QS Reimagine · Cierre
+DESCRIPTION:Cierre de postulaciones 2026\nhttps://content.qs.com/reimagine
+ 2025/2025_QS_Reimagine_Education_Awards_Category_Winners.pdf
+URL:https://content.qs.com/reimagine2025/2025_QS_Reimagine_Education_Award
+ s_Category_Winners.pdf
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:QS Reimagine: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:QS Reimagine: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:QS Reimagine: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11-1-2026-12-06@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:QS Reimagine · Premiación
+DESCRIPTION:Conferencia y premios en Londres · 6–8 diciembre\nhttps://cont
+ ent.qs.com/reimagine2025/2025_QS_Reimagine_Education_Awards_Category_Winn
+ ers.pdf
+URL:https://content.qs.com/reimagine2025/2025_QS_Reimagine_Education_Award
+ s_Category_Winners.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:12-0-2026-09-23@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:LearnX · Cierre
+DESCRIPTION:Cierre actualizado 2026 según FAQ\nhttps://learnx.live/
+URL:https://learnx.live/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LearnX: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LearnX: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LearnX: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:12-1-2026-12-08@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:LearnX · Premiación
+DESCRIPTION:Ceremonia en Sídney\nhttps://learnx.live/
+URL:https://learnx.live/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:12-2-2027-02@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:≈ LearnX · Apertura
+DESCRIPTION:Lanzamiento anunciado · día pendiente (día por confirmar)\nhtt
+ ps://learnx.live/
+URL:https://learnx.live/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-0-2027-01-20@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Bett Awards · Premiación
+DESCRIPTION:Gala en Londres · inscripciones cerradas\nhttps://bettawards.c
+ om/winners-2026/
+URL:https://bettawards.com/winners-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:14-0-2026-03@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:≈ GESAwards · Apertura
+DESCRIPTION:Lanzamiento de candidaturas 2026 (día por confirmar)\nhttps://
+ gesawards.io/winners/2025
+URL:https://gesawards.io/winners/2025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:14-1-2026-09-18@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:GESAwards · Cierre
+DESCRIPTION:Cierre global; fechas regionales pueden variar\nhttps://gesawa
+ rds.io/winners/2025
+URL:https://gesawards.io/winners/2025
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GESAwards: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GESAwards: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GESAwards: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:14-2-2026-10@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:≈ GESAwards · Selección
+DESCRIPTION:Semifinales regionales · octubre–noviembre (día por confirmar)
+ \nhttps://gesawards.io/winners/2025
+URL:https://gesawards.io/winners/2025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:14-3-2027-01@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:≈ GESAwards · Premiación
+DESCRIPTION:Final mundial en Bett · día pendiente (día por confirmar)\nhtt
+ ps://gesawards.io/winners/2025
+URL:https://gesawards.io/winners/2025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:15-0-2026-05-10@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:WISE Prize · Apertura
+DESCRIPTION:Apertura del ciclo 2026–2027\nhttps://www.wise-qatar.org/innov
+ ation/wise-prize-for-education
+URL:https://www.wise-qatar.org/innovation/wise-prize-for-education
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WISE Prize: apertura en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WISE Prize: apertura en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WISE Prize: apertura en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:15-1-2026-06-27@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:WISE Prize · Cierre
+DESCRIPTION:Cierre de candidaturas\nhttps://www.wise-qatar.org/innovation/
+ wise-prize-for-education
+URL:https://www.wise-qatar.org/innovation/wise-prize-for-education
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WISE Prize: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WISE Prize: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WISE Prize: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:15-2-2026-Q4@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:≈ WISE Prize · Resultados
+DESCRIPTION:Anuncio de finalistas · último trimestre (día por confirmar)\n
+ https://www.wise-qatar.org/innovation/wise-prize-for-education
+URL:https://www.wise-qatar.org/innovation/wise-prize-for-education
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:15-3-2027-01@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:≈ WISE Prize · Selección
+DESCRIPTION:Inicio del programa de desarrollo (día por confirmar)\nhttps:/
+ /www.wise-qatar.org/innovation/wise-prize-for-education
+URL:https://www.wise-qatar.org/innovation/wise-prize-for-education
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:15-4-2027-Q4@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:≈ WISE Prize · Premiación
+DESCRIPTION:Premiación WISE 13 · último trimestre (día por confirmar)\nhtt
+ ps://www.wise-qatar.org/innovation/wise-prize-for-education
+URL:https://www.wise-qatar.org/innovation/wise-prize-for-education
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20-0-2026-08-19@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:TecPrize · Apertura
+DESCRIPTION:Apertura difundida de TecPrize 2026\nhttps://conecta.tec.mx/es
+ /noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-
+ tecprize-2025
+URL:https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-labora
+ l-de-procesos-criticos-gana-tecprize-2025
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TecPrize: apertura en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TecPrize: apertura en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TecPrize: apertura en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20-1-2026-09-30@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:TecPrize · Cierre
+DESCRIPTION:Cierre difundido de TecPrize 2026\nhttps://conecta.tec.mx/es/n
+ oticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-te
+ cprize-2025
+URL:https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-labora
+ l-de-procesos-criticos-gana-tecprize-2025
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TecPrize: cierre en 14 día(s)
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TecPrize: cierre en 7 día(s)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TecPrize: cierre en 1 día(s)
+TRIGGER:-P0DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-mensual@calendario.yohual.com
+DTSTAMP:20261027T120000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+RRULE:FREQ=MONTHLY;BYMONTHDAY=1
+SUMMARY:Revisar calendario EdTech
+DESCRIPTION:Repasa las fichas sin verificar y los avisos del mes.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revisar calendario EdTech
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
