@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Trayectorias · Atlas de premios EdTech</title>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Premiaciones EdTech · Trayectorias</title>
 <style>
 :root{--ink:#182c33;--muted:#61767b;--line:#dce4e4;--paper:#f5f7f5;--green:#14584b}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #d68a27;outline-offset:3px}button{border:1px solid var(--line);border-radius:9px;background:white;color:var(--ink);padding:9px 13px}button:hover{background:#edf2ee}a{color:#175f9c}header{background:#123f39;color:white;padding:36px max(24px,calc((100vw - 1440px)/2));position:relative}header .eyebrow{color:#b4d9c6;letter-spacing:3px;font-size:11px;font-weight:750}h1{font-size:clamp(28px,4vw,47px);font-weight:600;line-height:1.13;letter-spacing:-1.5px;margin:15px 0}header p{color:#d0e0da;max-width:700px;margin:0}.topline{display:flex;justify-content:space-between;gap:20px;align-items:center}.stamp{font-size:12px;border:1px solid #49746a;padding:9px 14px;border-radius:30px;white-space:nowrap}.layout{max-width:1488px;margin:auto;padding:26px 24px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:26px}aside{background:white;border:1px solid var(--line);border-radius:16px;padding:19px;align-self:start}h2{font-size:19px;margin:0}aside p,.help{color:var(--muted);font-size:12px}.legend{display:grid;gap:4px;margin-top:14px}.legend button{text-align:left;display:flex;align-items:center;gap:9px;border:1px solid transparent;padding:7px 6px;font-size:12px}.legend button[aria-pressed=true]{background:#e8f0eb;border-color:#819c8d}.swatch{width:11px;height:11px;background:var(--c);border-radius:50%;flex:none}.num{font-size:10px;font-weight:800;opacity:.7}main{min-width:0}.stats{display:flex;gap:26px;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:20px}.stats strong{font-size:26px;line-height:1}.stats span{display:block;color:var(--muted);font-size:11px;margin-top:5px}.tools{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:18px}input,select{background:white;border:1px solid var(--line);border-radius:9px;padding:10px;max-width:100%;color:var(--ink)}input{flex:1;min-width:180px}.tabs{display:flex;gap:4px}.tabs .active{background:var(--green);color:white}.nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0}.nav h2{text-transform:capitalize;font-size:25px}.nav .controls{display:flex;gap:5px}.calendar{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:white}.week,.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}.week div{text-align:center;background:#eaf0ec;font-size:11px;padding:10px;font-weight:700}.day{min-height:112px;padding:6px;border-right:1px solid #e5ebea;border-bottom:1px solid #e5ebea}.day:nth-child(7n){border-right:0}.day.blank{background:#f8faf8}.day b{font-size:12px;color:#697c7c;font-weight:500;padding:2px 4px;display:inline-block}.event{display:block;text-align:left;width:100%;border:0;border-left:4px solid var(--c);border-radius:5px;background:color-mix(in srgb,var(--c) 9%,white);padding:6px;margin:4px 0;font-size:10px;line-height:1.4;color:var(--ink);overflow-wrap:anywhere}.event strong{display:block;font-size:11px}.event:hover{background:color-mix(in srgb,var(--c) 18%,white)}.historical{border-left-style:dashed}.tag{font-size:10px;font-weight:700;letter-spacing:.3px;color:var(--muted);text-transform:uppercase}.approx{padding:16px;border:1px dashed #b5c8c1;background:#edf3ef;border-radius:12px;margin-top:15px}.approx h3{font-size:14px;margin:0 0 10px}.approx .event{font-size:12px;padding:10px}.notice{font-size:12px;color:var(--muted);margin:15px 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:12px}.card{text-align:left;padding:20px;border-radius:13px;border-top:4px solid var(--c)}.card strong{display:block;font-size:17px;margin:7px 0}.card p{margin:8px 0;color:var(--muted);font-size:12px}.pill{font-size:10px;border:1px solid var(--line);padding:3px 7px;border-radius:20px;display:inline-block}.agenda-row{display:grid;grid-template-columns:115px 1fr;gap:18px;margin-bottom:10px;align-items:start}.agenda-row time{font-size:12px;padding-top:12px;color:var(--muted)}.agenda-row .event{font-size:12px;padding:12px}.agenda-row .event strong{font-size:14px}.empty{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}dialog{border:0;border-radius:18px;padding:0;max-width:690px;width:calc(100% - 28px);max-height:90vh;box-shadow:0 20px 90px #0005;color:var(--ink)}dialog::backdrop{background:#102c32b3;backdrop-filter:blur(4px)}.modalhead{padding:26px 28px 20px;border-top:7px solid var(--c);background:#f3f6f2}.modalhead h2{font-size:28px;margin:10px 0}.close{float:right;border:0;background:white;font-size:19px;padding:3px 11px}.modalbody{padding:23px 28px}.modalbody h3{font-size:13px;margin:23px 0 7px;color:var(--green);text-transform:uppercase;letter-spacing:.6px}.modalbody p{font-size:14px;margin:5px 0}.detaildates{list-style:none;padding:0;margin:0}.detaildates li{padding:10px 0;border-bottom:1px solid var(--line);font-size:13px}.detaildates strong{display:block}.linkbutton{display:block;background:var(--green);color:white;border-radius:9px;padding:12px 16px;text-decoration:none;margin-top:22px;font-size:14px}.secondary{display:block;margin-top:10px;font-size:12px}footer{max-width:1440px;margin:0 auto;padding:0 24px 25px;font-size:11px;color:var(--muted)}.mobilelegend{display:none}
 @media(max-width:850px){.layout{grid-template-columns:1fr}.legend{grid-template-columns:repeat(3,1fr)}aside{order:2}.stats{gap:18px}.stamp{display:none}.day{min-height:90px;padding:3px}.event{padding:4px;font-size:9px}.event strong{font-size:10px}.topline{display:block}.layout{padding:18px 12px}.tools{gap:6px}.nav{flex-wrap:wrap}.legend button{font-size:11px}}@media(max-width:500px){.legend{grid-template-columns:repeat(2,1fr)}.calendar{overflow:auto}.week,.grid{min-width:630px}.stats strong{font-size:22px}.agenda-row{grid-template-columns:85px 1fr;gap:8px}.modalbody,.modalhead{padding:20px}.tabs{width:100%}.tabs button{flex:1}.nav h2{font-size:22px}}@media print{aside,.tools,.controls,dialog,header .stamp{display:none}header{background:white;color:black}header p{color:#555}.layout{display:block}.event{break-inside:avoid}body{background:white}}
@@ -17,67 +17,194 @@ header{background:transparent;padding:80px 5vw 30px;max-width:1500px;margin:auto
 /* Calendario primero: fondo continuo, superficies discretas y fichas estables. */
 #atlas{background:transparent}header{padding:35px 5vw 24px}header h1{font-size:clamp(34px,4vw,54px);margin:12px 0;line-height:1.1}header p{font-size:14px}.layout{padding-top:0;gap:24px}aside{top:20px;background:rgba(6,10,19,.64);max-height:calc(100vh - 40px)}.calendar{background:rgba(6,10,19,.54)}.week div{background:rgba(20,26,40,.65)}.day.blank{background:rgba(4,6,12,.2)}.vignette{background:radial-gradient(ellipse,transparent 25%,#04060c55)}.swatch{box-shadow:none}.event{background:rgba(20,26,40,.8);border-left-width:3px;font-size:11px}.event strong{font-size:12px}.event:hover{transform:none;background:rgba(45,51,66,.9)}.card{background:rgba(11,17,30,.72);border-top-width:3px;transition:background .2s}.card:hover{transform:none;background:rgba(25,32,46,.94)}.card strong{font-family:var(--sans,'Hanken Grotesk',sans-serif);font-size:20px}.framework{animation:none;background:rgba(9,14,25,.96);scroll-margin-top:20px;box-shadow:none;border-color:var(--line)}.framework .modalhead{background:rgba(19,26,40,.75);border-top-width:3px}.framework .modalbody{background:transparent}.framework .block{background:rgba(20,27,40,.58)}.framework h2{font-family:'Hanken Grotesk',sans-serif;font-size:28px}.tabs{border-radius:7px}.tabs button{border-radius:4px}.nav{margin-top:22px}.nav h2{font-family:'Hanken Grotesk',sans-serif;font-size:25px;text-transform:none}.approx{background:rgba(20,26,40,.5);border-color:#e6c59040}.modalbody h3{letter-spacing:.03em}.notice{font-size:12px}.tools{margin-top:0}footer{background:rgba(4,6,12,.4)}
 @media(max-width:650px){header{padding:26px 5vw 20px}header h1{font-size:36px}.layout{padding-top:0}.nav h2{font-size:23px}.framework .modalbody{grid-template-columns:1fr}.framework .wide{grid-column:auto}}
+</style><style>
+/* ===== v2: tarjetas desplegables (sin calendario) ===== */
+header.top{padding:38px 5vw 8px;max-width:1500px;margin:auto}
+header.top h1{font-size:clamp(34px,4.4vw,60px);line-height:1.06;letter-spacing:-.025em;margin:12px 0}
+header.top p{color:var(--dust);font-size:15px;max-width:640px;margin:0}
+.soon{margin-top:16px!important;display:inline-flex;gap:10px;align-items:center;flex-wrap:wrap;border:1px solid #e6c59044;background:rgba(230,197,144,.07);border-radius:40px;padding:8px 16px;color:var(--star)!important;font-size:13px!important;max-width:none!important}
+.soon b{color:var(--sol);font-weight:600}
+.wrap{max-width:1500px;margin:auto;padding:18px 5vw 70px}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:6px}
+.tools input{flex:1 1 260px;max-width:420px;background:rgba(9,14,25,.7)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips button{border-radius:30px;padding:8px 15px;font-size:13px;background:rgba(9,14,25,.7)}
+.chips button[aria-pressed=true]{background:var(--sol);color:#17120b;border-color:var(--sol)}
+.chips small{opacity:.65;margin-left:5px}
+.awgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;margin-top:10px;align-items:start}
+.aw{--c:#888;background:rgba(11,17,30,.72);border:1px solid var(--line);border-top:3px solid var(--c);border-radius:14px;overflow:hidden;scroll-margin-top:20px;transition:border-color .25s,background .25s,transform .25s}
+.aw:hover{border-color:#ece8de33;background:rgba(15,22,38,.82)}
+.aw.open{grid-column:1/-1;background:rgba(10,15,27,.94);border-color:#e6c59044;border-top-color:var(--c)}
+.aw-head{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:9px;width:100%;padding:20px 22px 18px;cursor:pointer;color:var(--star)}
+.aw-head:focus-visible{outline:2px solid var(--sol);outline-offset:-4px;border-radius:12px}
+.aw-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.aw-num{font-size:11px;letter-spacing:.18em;color:var(--faint)}
+.aw-pill{font-size:10px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--line);border-radius:30px;padding:3px 10px;color:var(--dust)}
+.st-abierta{color:var(--sol);border-color:#e6c59066;background:rgba(230,197,144,.1)}
+.st-proxima-apertura{color:#9ec5ff;border-color:#9ec5ff55;background:rgba(158,197,255,.08)}
+.st-por-verificar{color:#c7a6f0;border-color:#c7a6f055;background:rgba(199,166,240,.08)}
+.aw-name{font-family:'Instrument Serif',Georgia,serif;font-size:30px;line-height:1.08;letter-spacing:-.01em}
+.aw-meta{font-size:12px;color:var(--faint);letter-spacing:.02em}
+.aw-focus{font-size:14px;color:var(--dust);line-height:1.5}
+.aw-prize{font-size:12.5px;color:var(--faint);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.aw-next{display:grid;gap:2px;margin-top:4px;padding:11px 13px;border-radius:10px;background:rgba(236,232,222,.045);border:1px solid #ece8de10}
+.aw-next .k{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint)}
+.aw-next strong{font-size:15px;font-weight:600}
+.aw-next .l{font-size:12.5px;color:var(--dust)}
+.aw-next.none{background:transparent;border-style:dashed}
+.chip{display:inline-block;font-style:normal;font-size:10.5px;letter-spacing:.04em;border-radius:20px;padding:2px 9px;background:rgba(230,197,144,.14);color:var(--sol);margin-top:3px;justify-self:start}
+.chip.past{background:rgba(236,232,222,.08);color:var(--faint)}
+.aw-more{font-size:12px;color:var(--sol);display:flex;justify-content:space-between;align-items:center;margin-top:2px;letter-spacing:.04em}
+.aw-more i{font-style:normal;font-size:18px;line-height:1;transition:transform .25s}
+.aw.open .aw-more i{transform:rotate(45deg)}
+.aw-body{padding:4px 22px 24px;animation:awIn .35s ease both}
+@keyframes awIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.aw-cols{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px}
+.aw-box{background:rgba(236,232,222,.035);border:1px solid #ece8de12;border-radius:12px;padding:18px 20px}
+.aw-box h3{font-family:'Hanken Grotesk',sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--sol);margin:0 0 14px;font-weight:600}
+.aw-box+.aw-box{margin-top:16px}
+.tl{list-style:none;margin:0;padding:0 0 0 18px;border-left:1px solid var(--line)}
+.tl li{position:relative;padding:0 0 18px 16px}
+.tl li:last-child{padding-bottom:2px}
+.tl li:before{content:'';position:absolute;left:-23px;top:5px;width:9px;height:9px;border-radius:50%;background:var(--void);border:1px solid var(--faint)}
+.tl li.next:before{background:var(--sol);border-color:var(--sol);box-shadow:0 0 12px #e6c590aa}
+.tl li.now:before{background:#9ec5ff;border-color:#9ec5ff;box-shadow:0 0 12px #9ec5ffaa}
+.tl li.past{opacity:.5}
+.tl .d{font-weight:600;font-size:15px}
+.tl .t{font-size:13px;color:var(--dust);margin-top:1px}
+.tl .m{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:5px}
+.kind{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);border:1px solid var(--line);border-radius:20px;padding:2px 8px}
+.tl .hist{margin:16px 0 0;font-size:12px;color:var(--faint)}
+dl.facts{margin:0;display:grid;gap:13px}
+dl.facts div{display:grid;gap:2px}
+dl.facts dt{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+dl.facts dd{margin:0;font-size:14px;line-height:1.55;color:var(--star)}
+ul.hl{margin:0;padding-left:18px;font-size:14px;line-height:1.6}
+.cats{display:flex;flex-wrap:wrap;gap:8px}
+.cats span{border:1px solid #ece8de22;border-radius:30px;padding:5px 12px;font-size:13px;background:rgba(236,232,222,.04)}
+.aw-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin-top:18px}
+.aw-actions .main{background:var(--sol);color:#17120b;text-decoration:none;border-radius:30px;padding:11px 22px;font-size:14px;font-weight:500}
+.aw-actions .main:hover{filter:brightness(1.08)}
+.aw-actions a.sec{font-size:13px}
+.aw-actions .ver{font-size:12px;color:var(--faint);margin-left:auto}
+.empty{padding:40px;text-align:center;color:var(--dust);border:1px dashed var(--line);border-radius:12px;grid-column:1/-1}
+@media(max-width:900px){.aw-cols{grid-template-columns:1fr}}
+@media(max-width:650px){header.top{padding:26px 5vw 6px}.wrap{padding:14px 5vw 50px}.awgrid{grid-template-columns:1fr}.aw-name{font-size:27px}.aw-body{padding:2px 16px 20px}.aw-actions .ver{margin-left:0;width:100%}.chips button{padding:7px 12px}}
+@media(prefers-reduced-motion:reduce){.aw-body{animation:none}}
+.aw.open .aw-next,.aw.open .aw-prize{display:none}
+.aw.open .aw-head{padding-bottom:10px}
 </style></head><body><canvas id="sky" aria-hidden="true"></canvas><div class="vignette" aria-hidden="true"></div><div id="atlas">
-<header><div class="topline"><div class="eyebrow">OBSERVATORIO · INNOVACIÓN EDUCATIVA</div><div class="stamp" id="stamp">Cargando…</div></div><h1>Calendario de premiaciones</h1><p>Educación y tecnología · Selecciona un evento para consultar su ficha completa.</p></header>
-<div class="layout"><aside><h2 id="asideTitle">Premiaciones</h2><p>Cada color identifica un premio. Toca su nombre para abrir la ficha completa.</p><button id="clear">Mostrar todos / restablecer</button><div class="legend" id="legend"></div></aside>
-<main>
-<div class="tools"><input id="search" type="search" placeholder="Buscar premio, país o tema…" aria-label="Buscar premios"><select id="kind" aria-label="Filtrar por tipo de evento"><option value="">Todos los eventos</option><option>Apertura</option><option>Cierre</option><option>Resultados</option><option>Premiación</option><option>Selección</option><option>Histórico</option></select><div class="tabs"><button data-view="calendar" class="active">Calendario</button><button data-view="agenda">Agenda</button><button data-view="directory" id="tabDir">Fichas</button></div></div>
-<section id="modal" class="framework" aria-labelledby="modal-title" hidden><div id="modalcontent"></div></section><div class="nav"><h2 id="heading"></h2><div class="controls" id="controls"><button id="prev" aria-label="Mes anterior">←</button><input type="month" id="month" aria-label="Ir al mes" value="2026-11"><button id="next" aria-label="Mes siguiente">→</button><button id="resetmonth">Inicio</button></div></div>
-<p class="notice" id="caption"></p><section id="content" aria-live="polite"></section>
-<p class="notice">● Color = premiación · Borde discontinuo = antecedente histórico. Las fechas sin día exacto se muestran aparte. Una ceremonia próxima no implica que la convocatoria siga abierta.</p></main></div>
-<footer>Datos curados a mano y vigilados cada día contra las páginas oficiales: si una fuente cambia, el autor recibe un aviso para revisarla. Confirma siempre las bases vigentes antes de postular. · <a href="calendario.ics">Suscribirse al calendario (.ics)</a></footer>
-
-</div><script>
-let awards=[],sourceUrls={},META={updated:''};
-const fmtCorte=()=>META.updated?new Date(META.updated+'T12:00:00').toLocaleDateString('es-MX',{day:'numeric',month:'long',year:'numeric'}):'';
-const fmtVer=v=>v?new Date(v+'T12:00:00').toLocaleDateString('es-MX',{day:'numeric',month:'short',year:'numeric'}):'sin verificar';
-const thisMonth=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')};
-const $=id=>document.getElementById(id);let selected=null,view='calendar',cursor=thisMonth();
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const monthName=s=>new Date(Number(s.slice(0,4)),Number(s.slice(5,7))-1,1).toLocaleDateString('es-MX',{month:'long',year:'numeric'});
-function dateLabel(d){if(d.includes('Q'))return 'Oct–dic '+d.slice(0,4)+' · trimestre';if(d.length===7)return monthName(d)+' · sin día';return new Date(d+'T12:00:00').toLocaleDateString('es-MX',{day:'numeric',month:'short',year:'numeric'});}
-function matches(a){return(!selected||selected===a.id)&&norm([a.name,a.region,a.focus].join(' ')).includes(norm($('search').value));}
-function events(){return awards.filter(matches).flatMap(a=>a.events.filter(e=>!$('kind').value||e.kind===$('kind').value).map(e=>({...e,a}))).sort((a,b)=>a.date.replace('Q4','10').localeCompare(b.date.replace('Q4','10')));}
-function eventButton(e){return '<button class="event '+(e.kind==='Histórico'?'historical':'')+'" style="--c:'+e.a.color+'" data-award="'+e.a.id+'"><span class="tag">'+esc(e.kind)+' · '+String(e.a.id).padStart(2,'0')+'</span><strong>'+esc(e.a.name)+'</strong>'+esc(e.label)+'</button>';}
-function inMonth(e){return e.date.slice(0,7)===cursor||(e.date===cursor.slice(0,4)+'-Q4'&&Number(cursor.slice(5))>=10);}
+<header class="top"><div class="topline"><div class="eyebrow">OBSERVATORIO · INNOVACIÓN EDUCATIVA</div><div class="stamp" id="stamp">Cargando…</div></div>
+<h1>Premiaciones de educación y tecnología</h1>
+<p>Cada tarjeta resume lo esencial. Toca una para ver sus fechas importantes, características y la convocatoria oficial.</p>
+<p class="soon" id="soon" hidden></p></header>
+<main class="wrap">
+<div class="tools"><input id="search" type="search" placeholder="Buscar premio, país o tema…" aria-label="Buscar premios"><div class="chips" id="chips" role="group" aria-label="Filtrar por estado"></div></div>
+<p class="notice" id="caption" aria-live="polite"></p>
+<section id="list" class="awgrid" aria-live="polite"></section>
+<p class="notice">Una fecha próxima no implica que la convocatoria siga abierta: confirma siempre las bases vigentes antes de postular.</p>
+</main>
+<footer>Datos curados a mano y vigilados cada día contra las páginas oficiales: si una fuente cambia, el autor recibe un aviso para revisarla. · <a href="calendario.ics">Suscribirse a las fechas (.ics)</a> · <a href="https://github.com/josuerodriguezs-star/yohual-calendario" rel="noopener">Colaborar en GitHub</a></footer>
+</div><div id="modal" hidden></div>
+<script>
+let awards=[],sourceUrls={},META={updated:''},openId=null,query='',statusF='all';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const MESL=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const pad=n=>String(n).padStart(2,'0');
+const TODAY=(()=>{const d=new Date();return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())})();
+const dayNum=s=>Math.floor(Date.parse(s+'T00:00:00Z')/864e5);
+const prec=d=>d.length===10?'d':d.includes('Q')?'q':'m';
+const startOf=d=>{const p=prec(d);return p==='d'?d:p==='m'?d+'-01':d.slice(0,4)+'-10-01'};
+const endOf=e=>{const x=e.end||e.date,p=prec(x);if(p==='d')return x;if(p==='m'){const[y,m]=x.split('-').map(Number);return new Date(Date.UTC(y,m,0)).toISOString().slice(0,10)}return x.slice(0,4)+'-12-31'};
+const fmtDay=(d,y=true)=>{const[a,b,c]=d.split('-').map(Number);return c+' '+MES[b-1]+(y?' '+a:'')};
+function fmtDate(e){const a=e.date,b=e.end,pa=prec(a);
+ if(pa==='q')return 'Oct–dic '+a.slice(0,4)+' · trimestre';
+ if(pa==='m'){const[y,m]=a.split('-').map(Number);
+  if(b&&prec(b)==='m'){const[y2,m2]=b.split('-').map(Number);return y===y2?MESL[m-1]+' – '+MESL[m2-1]+' '+y:MESL[m-1]+' '+y+' – '+MESL[m2-1]+' '+y2}
+  return MESL[m-1]+' '+y+' · día por confirmar'}
+ if(!b)return fmtDay(a);
+ const[y1,m1]=a.split('-').map(Number),[y2,m2,d2]=b.split('-').map(Number);
+ if(y1===y2&&m1===m2)return Number(a.slice(8))+'–'+d2+' '+MES[m1-1]+' '+y1;
+ if(y1===y2)return fmtDay(a,false)+' – '+fmtDay(b);
+ return fmtDay(a)+' – '+fmtDay(b)}
+function when(e){const s=dayNum(startOf(e.date)),f=dayNum(endOf(e)),t=dayNum(TODAY),ex=prec(e.date)==='d';
+ if(t>f)return{st:'past',txt:'Ya pasó'};
+ if(t>=s)return{st:'now',txt:ex&&e.end?'En curso':ex?'Hoy':'Este mes'};
+ if(ex){const n=s-t;return{st:'future',txt:n===1?'Mañana':'En '+n+' días'}}
+ const now=new Date(TODAY+'T12:00:00Z'),a=new Date(startOf(e.date)+'T12:00:00Z');
+ const m=(a.getUTCFullYear()-now.getUTCFullYear())*12+a.getUTCMonth()-now.getUTCMonth();
+ return{st:'future',txt:m<=1?'El próximo mes':'En '+m+' meses'}}
+const KORD={Apertura:0,Cierre:1,Selección:2,Resultados:3,Premiación:4,Histórico:5};
+function phases(a){
+ const ev=a.events.filter(e=>e.kind!=='Histórico').slice().sort((x,y)=>startOf(x.date).localeCompare(startOf(y.date))||(KORD[x.kind]??9)-(KORD[y.kind]??9));
+ const out=[];
+ for(let i=0;i<ev.length;i++){const e=ev[i];
+  if(e.span){const j=ev.findIndex((x,k)=>k>i&&x.kind==='Cierre');
+   if(j>-1){out.push({date:e.date,end:ev[j].date,kind:'Convocatoria',label:'Convocatoria abierta',note:e.label+' → '+ev[j].label});ev.splice(j,1);continue}}
+  out.push({...e})}
+ return out}
+const hist=a=>a.events.filter(e=>e.kind==='Histórico');
+function nextPhase(a){return phases(a).find(p=>when(p).st!=='past')||null}
+const ST_ORD={'Abierta':0,'Próxima apertura':1,'Por verificar':2,'Cerrada':3,'Sin convocatoria confirmada':4};
+const slug=s=>norm(s).replace(/[^a-z0-9]+/g,'-');
+const FILT={all:()=>true,abierta:a=>a.status==='Abierta',proxima:a=>a.status==='Próxima apertura',verificar:a=>a.status==='Por verificar',cerrada:a=>['Cerrada','Sin convocatoria confirmada'].includes(a.status)};
+const FNAME={all:'Todas',abierta:'Abiertas',proxima:'Próximas',verificar:'Por verificar',cerrada:'Cerradas'};
+function sorted(list){return list.slice().sort((a,b)=>{const o=(ST_ORD[a.status]??9)-(ST_ORD[b.status]??9);if(o)return o;
+ const na=nextPhase(a),nb=nextPhase(b);const da=na?startOf(na.date):'9999',db=nb?startOf(nb.date):'9999';
+ return da.localeCompare(db)||a.name.localeCompare(b.name)})}
+function matches(a){return FILT[statusF](a)&&norm([a.name,a.region,a.focus,a.frequency,(a.categories||[]).join(' ')].join(' ')).includes(norm(query))}
+function card(a){const n=nextPhase(a),w=n&&when(n);
+ const next=n?'<span class="aw-next"><span class="k">Próxima fecha</span><strong>'+esc(fmtDate(n))+'</strong><span class="l">'+esc(n.label)+'</span><em class="chip">'+esc(w.txt)+'</em></span>'
+  :'<span class="aw-next none"><span class="k">Próxima fecha</span><span class="l">Sin fechas futuras confirmadas</span></span>';
+ return '<article class="aw'+(openId===a.id?' open':'')+'" id="premio-'+a.id+'" style="--c:'+esc(a.color)+'">'+
+ '<button class="aw-head" aria-expanded="'+(openId===a.id)+'" aria-controls="aw-body-'+a.id+'" data-id="'+a.id+'">'+
+ '<span class="aw-top"><span class="aw-num">'+pad(a.id)+'</span><span class="aw-pill st-'+slug(a.status)+'">'+esc(a.status)+'</span></span>'+
+ '<span class="aw-name">'+esc(a.name)+'</span><span class="aw-meta">'+esc(a.region)+' · '+esc(a.frequency)+'</span>'+
+ '<span class="aw-focus">'+esc(a.focus)+'</span>'+next+'<span class="aw-prize">'+esc(a.prize)+'</span>'+
+ '<span class="aw-more"><span>'+(openId===a.id?'Ocultar detalles':'Ver detalles')+'</span><i aria-hidden="true">+</i></span></button>'+
+ '<div class="aw-body" id="aw-body-'+a.id+'"'+(openId===a.id?'':' hidden')+'>'+(openId===a.id?body(a):'')+'</div></article>'}
+function body(a){
+ const ph=phases(a),h=hist(a);let firstNext=false;
+ const tl=ph.map(p=>{const w=when(p);let cls=w.st==='past'?'past':w.st==='now'?'now':(!firstNext?(firstNext=true,'next'):'');
+  return '<li class="'+cls+'"><div class="d">'+esc(fmtDate(p))+'</div><div class="t">'+esc(p.label)+'</div><div class="m"><span class="kind">'+esc(p.kind)+'</span><em class="chip'+(w.st==='past'?' past':'')+'">'+esc(w.txt)+'</em></div>'+(p.note?'<div class="t" style="font-size:12px;color:var(--faint);margin-top:4px">'+esc(p.note)+'</div>':'')+'</li>'}).join('');
+ const tlHtml=ph.length?'<ol class="tl">'+tl+'</ol>':'<p style="margin:0;color:var(--dust);font-size:14px">Aún no hay fechas futuras confirmadas para este premio.</p>';
+ const hh=h.length?'<p class="hist"><b>Antecedentes:</b> '+h.map(e=>esc(fmtDate(e))+' · '+esc(e.label.replace(/^Antecedente:\s*/,''))).join(' · ')+'</p>':'';
+ const facts=[['Enfoque',a.focus],['Frecuencia',a.frequency],['Región',a.region],['Qué reciben',a.prize],['Número de premiados',a.winners],['Acceso a proyectos publicados',a.publication]]
+  .filter(x=>x[1]).map(x=>'<div><dt>'+x[0]+'</dt><dd>'+esc(x[1])+'</dd></div>').join('');
+ const hl=(a.highlights||[]).length?'<ul class="hl">'+a.highlights.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'';
+ const cats=(a.categories||[]).length?'<section class="aw-box"><h3>Categorías</h3><div class="cats">'+a.categories.map(x=>'<span>'+esc(x)+'</span>').join('')+'</div></section>':'';
+ const extra=sourceUrls[a.id];
+ const issue='https://github.com/josuerodriguezs-star/yohual-calendario/issues/new?title='+encodeURIComponent('Corrección: '+a.name)+'&body='+encodeURIComponent('Premio: '+a.name+'\n\nQué debería cambiar:\n\nFuente oficial (enlace):\n');
+ return '<div class="aw-cols"><section class="aw-box"><h3>Fechas importantes</h3>'+tlHtml+hh+'</section>'+
+  '<div><section class="aw-box"><h3>Características de la convocatoria</h3><dl class="facts">'+facts+'</dl>'+hl+'</section>'+cats+'</div></div>'+
+  '<div class="aw-actions"><a class="main" href="'+esc(a.url)+'" target="_blank" rel="noopener noreferrer">'+esc(a.linkLabel||'Convocatoria oficial')+' ↗</a>'+
+  (extra?'<a class="sec" href="'+esc(extra)+'" target="_blank" rel="noopener noreferrer">Fuente oficial y bases ↗</a>':'')+
+  '<a class="sec" href="'+issue+'" target="_blank" rel="noopener noreferrer">Sugerir corrección</a>'+
+  '<span class="ver">Verificado el '+esc(fmtVer(a.verified))+'</span></div>'}
+const fmtVer=v=>v?fmtDay(v):'sin verificar';
 function render(){
-
- document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-pressed',b.dataset.view===view)});
- $('legend').innerHTML=awards.map(a=>'<button data-filter="'+a.id+'" aria-pressed="'+(selected===a.id)+'"><span class="swatch" style="--c:'+a.color+'"></span><span class="num">'+String(a.id).padStart(2,'0')+'</span>'+esc(a.name)+'</button>').join('');
- $('controls').style.display=view==='calendar'?'flex':'none';
- const es=events(),list=awards.filter(matches);
- if(view==='calendar'){
- $('heading').textContent=monthName(cursor);$('month').value=cursor;
- const cur=es.filter(inMonth);$('caption').textContent=cur.length+' eventos en este mes · Selecciona una ficha para ver todas sus fechas.';
- const [y,m]=cursor.split('-').map(Number),offset=(new Date(y,m-1,1).getDay()+6)%7,days=new Date(y,m,0).getDate();
- let html='<div class="calendar"><div class="week">'+['LUN','MAR','MIÉ','JUE','VIE','SÁB','DOM'].map(x=>'<div>'+x+'</div>').join('')+'</div><div class="grid">';
- for(let n=0;n<Math.ceil((offset+days)/7)*7;n++){let d=n-offset+1;if(d<1||d>days){html+='<div class="day blank"></div>';continue}const key=cursor+'-'+String(d).padStart(2,'0');html+='<div class="day"><b>'+d+'</b>'+cur.filter(e=>e.date===key).map(eventButton).join('')+'</div>';}
- html+='</div></div>';const ap=cur.filter(e=>e.date.length!==10);
- if(ap.length)html+='<div class="approx"><h3>Fechas por mes o trimestre · día pendiente</h3>'+ap.map(e=>'<div><span class="tag">'+esc(dateLabel(e.date))+'</span>'+eventButton(e)+'</div>').join('')+'</div>';
- if(!cur.length)html+='<p class="empty">No hay eventos documentados con estos filtros. Cambia de mes o abre «Fichas» para consultar premios sin fecha futura.</p>';
- $('content').innerHTML=html;
- }else if(view==='agenda'){
- $('heading').textContent='Agenda documentada';$('caption').textContent=es.length+' eventos · Incluye antecedentes, ordenados por fecha. Fechas parciales indicadas expresamente.';
- $('content').innerHTML=es.map(e=>'<div class="agenda-row"><time>'+esc(dateLabel(e.date))+'</time>'+eventButton(e)+'</div>').join('')||'<div class="empty">No hay resultados con estos filtros.</div>';
- }else{
- const filtered=list.filter(a=>!$('kind').value||a.events.some(e=>e.kind===$('kind').value));
- $('heading').textContent='Directorio de premiaciones';$('caption').textContent=filtered.length+' de '+awards.length+' premiaciones · Cada ficha muestra la fecha de su última verificación.';
- $('content').innerHTML='<div class="cards">'+filtered.map(a=>'<button class="card" style="--c:'+a.color+'" data-award="'+a.id+'"><span class="tag">'+String(a.id).padStart(2,'0')+' / '+esc(a.frequency)+'</span><strong>'+esc(a.name)+'</strong><span class="pill">'+esc(a.status)+'</span><p>'+esc(a.region)+'</p><p>'+esc(a.focus)+'</p><span class="tag">Ver fechas y detalles ↗</span></button>').join('')+'</div>'+(filtered.length?'':'<p class="empty">No hay coincidencias.</p>');
- }
-}
-function openAward(id){
- const a=awards.find(x=>x.id===id);const extra=sourceUrls[id];
- $('modalcontent').innerHTML='<div class="modalhead" style="--c:'+a.color+'"><button class="close" id="close" aria-label="Cerrar ficha">Cerrar ficha ×</button><div class="tag">Premiación '+String(a.id).padStart(2,'0')+' · '+esc(a.frequency)+'</div><h2 id="modal-title" tabindex="-1">'+esc(a.name)+'</h2><span class="pill">'+esc(a.status)+' · verificado '+fmtVer(a.verified)+'</span><p>'+esc(a.region)+'</p></div><div class="modalbody"><div class="block wide"><h3>01 · Enfoque del premio</h3><p>'+esc(a.focus)+'</p></div><div class="block wide"><h3>02 · Fechas y ciclo de participación</h3><ul class="detaildates">'+a.events.map(e=>'<li><strong>'+esc(dateLabel(e.date))+'</strong>'+esc(e.label)+' <span class="tag"> · '+esc(e.kind)+'</span></li>').join('')+'</ul>'+(a.events.every(e=>e.kind==='Histórico')?'<p class="notice">No hay calendario futuro confirmado en la investigación. Estas fechas son antecedentes; no se trasladan automáticamente a 2027.</p>':'')+'</div><div class="block"><h3>03 · Qué reciben los ganadores</h3><p>'+esc(a.prize)+'</p></div><div class="block"><h3>04 · Número de premiados</h3><p>'+esc(a.winners)+'</p></div><div class="block wide"><h3>05 · Acceso a proyectos publicados</h3><p>'+esc(a.publication)+'</p></div><a class="linkbutton" href="'+esc(a.url)+'" target="_blank" rel="noopener noreferrer">'+esc(a.linkLabel)+' ↗</a>'+(extra?'<a class="secondary" href="'+esc(extra)+'" target="_blank" rel="noopener noreferrer">Consultar fuente oficial y bases ↗</a>':'')+'<p class="notice">Montos y categorías sujetos a la edición indicada. La publicación de ganadores no garantiza acceso al proyecto completo. Datos verificados el '+fmtVer(a.verified)+'.</p></div>';
- $('modal').hidden=false;$('close').onclick=()=>{$('modal').hidden=true;};$('modal').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});$('modal-title').focus({preventScroll:true});
-}
-document.addEventListener('click',e=>{const a=e.target.closest('[data-award]');if(a)openAward(Number(a.dataset.award));const f=e.target.closest('[data-filter]');if(f){openAward(Number(f.dataset.filter));}const v=e.target.closest('[data-view]');if(v){view=v.dataset.view;render();}});
-function move(n){let [y,m]=cursor.split('-').map(Number);const d=new Date(y,m-1+n,1);cursor=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');render();}
- $('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);$('resetmonth').onclick=()=>{cursor=thisMonth();render()};$('month').onchange=e=>{if(e.target.value){cursor=e.target.value;render()}};
- $('search').oninput=render;$('kind').onchange=render;$('clear').onclick=()=>{selected=null;$('search').value='';$('kind').value='';render()};
- $('modal').addEventListener('click',e=>{if(e.target===$('modal')){const r=$('modal').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('modal').hidden=true}});
- fetch('awards.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{awards=d.awards;sourceUrls=d.sourceUrls||{};META=d.meta||META;$('stamp').textContent='Actualizado · '+fmtCorte();$('asideTitle').textContent='Las '+awards.length+' premiaciones';$('tabDir').textContent=awards.length+' fichas';render();}).catch(()=>{$('content').innerHTML='<p class="empty">No se pudo cargar awards.json.</p>'});
-</script><script>(()=>{'use strict';const doc=document,root=doc.documentElement,reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;let W=innerWidth,H=innerHeight;const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v)),lerp=(a,b,t)=>a+(b-a)*t,smooth=t=>t*t*(3-2*t),mix=(a,b,t)=>a.map((v,i)=>lerp(v,b[i],t));function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+ $('chips').innerHTML=Object.keys(FILT).map(k=>'<button data-f="'+k+'" aria-pressed="'+(statusF===k)+'">'+FNAME[k]+'<small>'+awards.filter(FILT[k]).length+'</small></button>').join('');
+ const list=sorted(awards.filter(matches));
+ $('caption').textContent=list.length+' de '+awards.length+' premiaciones';
+ $('list').innerHTML=list.map(card).join('')||'<p class="empty">No hay coincidencias. Prueba con otra búsqueda o filtro.</p>';
+ const t=awards.flatMap(a=>a.status==='Abierta'||a.status==='Próxima apertura'?a.events.filter(p=>p.kind==='Cierre'&&prec(p.date)==='d'&&when(p).st!=='past').map(p=>({a,p})):[]).sort((x,y)=>startOf(x.p.date).localeCompare(startOf(y.p.date)))[0];
+ if(t){const s=$('soon');s.hidden=false;s.innerHTML='Próximo cierre: <b>'+esc(t.a.name)+'</b> · '+esc(fmtDate(t.p))+' · <b>'+esc(when(t.p).txt)+'</b>'}}
+function toggle(id,scroll=true){openId=openId===id?null:id;render();
+ try{history.replaceState(null,'',openId?'#premio-'+openId:location.pathname+location.search)}catch(e){}
+ if(openId&&scroll){const el=$('premio-'+openId);if(el)el.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}}
+document.addEventListener('click',e=>{const h=e.target.closest('.aw-head');if(h)return toggle(Number(h.dataset.id));const f=e.target.closest('[data-f]');if(f){statusF=f.dataset.f;render()}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&openId){const id=openId;toggle(id,false);const b=document.querySelector('[data-id="'+id+'"]');if(b)b.focus()}});
+$('search').addEventListener('input',e=>{query=e.target.value;render()});
+fetch('awards.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{awards=d.awards;sourceUrls=d.sourceUrls||{};META=d.meta||META;
+ $('stamp').textContent='Actualizado · '+(META.updated?new Date(META.updated+'T12:00:00').toLocaleDateString('es-MX',{day:'numeric',month:'long',year:'numeric'}):'');
+ const m=location.hash.match(/^#premio-(\d+)$/);if(m&&awards.some(a=>a.id===Number(m[1])))openId=Number(m[1]);
+ render();if(openId){const el=$('premio-'+openId);if(el)el.scrollIntoView({block:'start'})}})
+ .catch(()=>{$('list').innerHTML='<p class="empty">No se pudo cargar awards.json.</p>'});
+</script>
+<script>(()=>{'use strict';const doc=document,root=doc.documentElement,reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;let W=innerWidth,H=innerHeight;const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v)),lerp=(a,b,t)=>a+(b-a)*t,smooth=t=>t*t*(3-2*t),mix=(a,b,t)=>a.map((v,i)=>lerp(v,b[i],t));function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
 const cv=doc.getElementById('sky');
 const ctx=cv.getContext('2d',{alpha:false});
 let dpr=1,nActive=900;

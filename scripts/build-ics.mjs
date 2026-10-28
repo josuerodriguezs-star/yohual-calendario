@@ -17,7 +17,7 @@ for (const a of d.awards) for (const [i, e] of a.events.entries()) {
   if (exact) start = e.date; else if (e.date.includes('Q')) start = e.date.slice(0, 4) + '-10-01'; else start = e.date + '-01';
   const t = (exact ? '' : '≈ ') + a.name + ' · ' + e.kind;
   const ev = ['BEGIN:VEVENT', `UID:${a.id}-${i}-${e.date}@calendario.yohual.com`, 'DTSTAMP:' + stamp,
-    'DTSTART;VALUE=DATE:' + ymd(start), 'DTEND;VALUE=DATE:' + plus1(start), 'SUMMARY:' + esc(t),
+    'DTSTART;VALUE=DATE:' + ymd(start), 'DTEND;VALUE=DATE:' + plus1(exact && e.end && e.end.length === 10 ? e.end : start), 'SUMMARY:' + esc(t),
     'DESCRIPTION:' + esc(e.label + (exact ? '' : ' (día por confirmar)') + '\n' + a.url), 'URL:' + a.url, 'TRANSP:TRANSPARENT'];
   if (exact && ['Cierre', 'Apertura'].includes(e.kind)) for (const k of [14, 7, 1]) ev.push(...alarm(k, `${a.name}: ${e.kind.toLowerCase()} en ${k} día(s)`));
   ev.push('END:VEVENT'); L.push(...ev); n++;

@@ -3,6 +3,11 @@
 Calendario de premiaciones de educación y tecnología, con avisos para mantenerlo al día.
 Sitio estático (sin build) pensado para `calendario.yohual.com`.
 
+## Estructura de cada premio en awards.json
+- `events[]`: `date` (AAAA-MM-DD, AAAA-MM o AAAA-Q4), `end` opcional para rangos, `label`, `kind`.
+- `events[].span: true` en una *Apertura* la muestra junto al siguiente *Cierre* como un solo bloque "Convocatoria abierta".
+- `categories[]` (lista de categorías) y `highlights[]` (características extra): opcionales; si están vacíos, esa sección no se muestra.
+
 ## Cómo se actualiza
 - Todos los datos viven en `awards.json`. Edita ahí fechas, estados y textos.
 - Al revisar un premio: `node scripts/marcar.mjs 3 7` (por id) o `node scripts/marcar.mjs todos`.
