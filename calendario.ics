@@ -48,7 +48,7 @@ BEGIN:VEVENT
 UID:1-2-2027-06-21@calendario.yohual.com
 DTSTAMP:20261027T120000Z
 DTSTART;VALUE=DATE:20270621
-DTEND;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270625
 SUMMARY:USDLA · Premiación
 DESCRIPTION:Conferencia y entrega · 21–24 junio\nhttps://usdla.org/interna
  tional-awards/
@@ -95,7 +95,7 @@ BEGIN:VEVENT
 UID:2-2-2027-06-16@calendario.yohual.com
 DTSTAMP:20261027T120000Z
 DTSTART;VALUE=DATE:20270616
-DTEND;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
 SUMMARY:MEDEA · Premiación
 DESCRIPTION:Premios durante el congreso · 16–17 junio\nhttps://media-and-l
  earning.eu/awards/
@@ -423,7 +423,7 @@ BEGIN:VEVENT
 UID:8-0-2026-11-11@calendario.yohual.com
 DTSTAMP:20261027T120000Z
 DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261114
 SUMMARY:SIMO EDUCACIÓN · Premiación
 DESCRIPTION:Presentaciones y premios durante SIMO · 11–13 noviembre\nhttps
  ://www.ifema.es/simo-educacion/noticias/35-experiencias-finalistas-xiv-pr
@@ -436,7 +436,7 @@ BEGIN:VEVENT
 UID:9-0-2026-11-16@calendario.yohual.com
 DTSTAMP:20261027T120000Z
 DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261120
 SUMMARY:OLC Awards · Premiación
 DESCRIPTION:Reconocimiento durante OLC Accelerate · 16–19 noviembre\nhttps
  ://onlinelearningconsortium.org/olc-in-the-news/2026/10/accelerate-2026-a
@@ -539,7 +539,7 @@ BEGIN:VEVENT
 UID:11-1-2026-12-06@calendario.yohual.com
 DTSTAMP:20261027T120000Z
 DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261209
 SUMMARY:QS Reimagine · Premiación
 DESCRIPTION:Conferencia y premios en Londres · 6–8 diciembre\nhttps://cont
  ent.qs.com/reimagine2025/2025_QS_Reimagine_Education_Awards_Category_Winn

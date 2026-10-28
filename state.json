@@ -253,7 +253,7 @@
    "since": "2026-10-28"
   },
   "https://www.unesco.org/en/articles/unesco-ict-prize-awards-dynamic-projects-promoting-creativity-and-critical-thinking-finland-and": {
-   "hash": "ef663f54fb5c206774227b7338712a3d6f03183bfd8a02c4454f10dc66e5a7d0",
+   "hash": "1813c0f9aab8cae8297757fa821406974dbf082b04f8a0febd2355c830407301",
    "fechas": [
     "13 january 2027",
     "15 january 2027",
@@ -261,6 +261,7 @@
     "18 december 2026",
     "20 april 2027",
     "27 october 2026",
+    "28 october 2026",
     "9 september 2026"
    ],
    "estados": [
@@ -337,10 +338,11 @@
    "since": "2026-10-28"
   },
   "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": {
-   "hash": "562fc0d4df27d2765716eb295614df78e832cc654ced2debccde6fb6d06cee3f",
+   "hash": "35977f33134ab895100043ddfeb47d268f64416831f5c7c6bf066c7ec0b54f2b",
    "fechas": [
     "01/28/2026",
     "27 octubre 2026",
+    "28 octubre 2026",
     "28/01/2026",
     "29 de enero"
    ],
@@ -401,7 +403,7 @@
  "fails": {
   "https://usdla.org/international-awards/": 0,
   "https://media-and-learning.eu/awards/": 0,
-  "https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-the-edtech-innovation-hub-awards-2027": 0,
+  "https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-the-edtech-innovation-hub-awards-2027": 1,
   "https://codieawards.com/": 0,
   "https://www.ielassoc.org/about-the-iela-awards": 0,
   "https://www.africatechsummit.com/awards/": 0,
@@ -429,7 +431,7 @@
   "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": 0,
   "https://tecprize.tec.mx/es": 0,
   "https://www.uv.mx/dgdaie/la-universidad-veracruzana-destaca-en-el-premio-rie-360-a-la-innovacion-educativa/": 0,
-  "https://www.rie360.mx/premio.html": 1,
+  "https://www.rie360.mx/premio.html": 2,
   "https://www.edtechdigest.com/2026-finalists-winners/": 0,
   "https://www.edtechdigest.com/enter-awards/": 0,
   "https://www.fundaciontelefonica.com/noticias/enlighted-awards-2021/": 0
