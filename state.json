@@ -1,5 +1,437 @@
 {
- "hashes": {},
- "sent": {},
- "fails": {}
+ "hashes": {
+  "https://usdla.org/international-awards/": {
+   "hash": "9c6991192774cd214493b46a7a2ffde290e1a947f7c5fe5257e71fc284b94bf8",
+   "fechas": [
+    "1/31/2027",
+    "jan 31, 2027",
+    "june 21",
+    "march 15, 2027"
+   ],
+   "estados": [
+    "submissions open"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://media-and-learning.eu/awards/": {
+   "hash": "65f8282f94e1904b3802a898e9690e22e872e6fd08da2a1ad2dc6f08497dcc13",
+   "fechas": [
+    "17 june 2026",
+    "17 june 2027",
+    "28 feb 2027",
+    "28 february 2027"
+   ],
+   "estados": [
+    "call for entries",
+    "closing",
+    "deadline"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-the-edtech-innovation-hub-awards-2027": {
+   "hash": "e06ffc01315cfd4e7267508afa73c1b24e5d422f907e0597d1cd8857d0275843",
+   "fechas": [
+    "11 may 2026",
+    "12 april 2027",
+    "18 december 2026",
+    "18 oct",
+    "18 october 2026",
+    "26 february 2027",
+    "26 march 2027",
+    "8 march",
+    "8 march 2027"
+   ],
+   "estados": [
+    "deadline"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://codieawards.com/": {
+   "hash": "3dcbba82ab7ead224273d65be6b85a8421b16937997a212a8bfe92616fc30b3a",
+   "fechas": [
+    "apr 2",
+    "apr 26",
+    "dec 16",
+    "dec 4",
+    "feb 5",
+    "feb 6",
+    "jan 11",
+    "january 11",
+    "jul 20",
+    "jul 9",
+    "jun 11",
+    "jun 23",
+    "jun 24",
+    "mar 5",
+    "mar 6",
+    "may 28",
+    "nov 23",
+    "nov 9",
+    "oct 10",
+    "oct 9",
+    "sep 1",
+    "sep 9",
+    "september 1"
+   ],
+   "estados": [
+    "deadline"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.ielassoc.org/about-the-iela-awards": {
+   "hash": "43c69d119670d394c8bc14230aa690860bed1b3b38bf1673707fd222cd68d8c6",
+   "fechas": [
+    "june 10"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://www.africatechsummit.com/awards/": {
+   "hash": "9306ee974ff4b38d1a1de5d8594ad6566e514b27987ce8f7cede4e15aead458f",
+   "fechas": [
+    "feb 11th 2027",
+    "february 11th 2027"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://www.learningtechnologies.co.uk/2025-winners": {
+   "hash": "7e589773513b98670bb2e8e517a82df5d10723c43256e814f2aa1dd5b0c93d09",
+   "fechas": [
+    "11 nov 2026",
+    "11 november 2026",
+    "12 november 2025",
+    "5 may 2027",
+    "6 may 2027"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://www.learningtechnologies.co.uk/learning-tech-awards/enter-an-award/presentation-guidelines": {
+   "hash": "434f138643fdbf695e1e60b06ca1f97591c28752cd3883f158c91700c8c33921",
+   "fechas": [
+    "11 nov 2026",
+    "11 november",
+    "11 november 2026",
+    "5 may 2027",
+    "6 may 2027"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://www.ifema.es/simo-educacion/noticias/35-experiencias-finalistas-xiv-premios-innovacion-educativa": {
+   "hash": "fecfcec6684ecf5b3516583ccea32e3728819089349764265f969020ad754a8c",
+   "fechas": [
+    "07 octubre 2026",
+    "13 de noviembre",
+    "13 nov 2026"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://onlinelearningconsortium.org/olc-in-the-news/2026/10/accelerate-2026-award-recipients/": {
+   "hash": "f0a6c37912bd4ccfc43e4922125c3846896121c3d7b925db4d95e23172a9584c",
+   "fechas": [
+    "april 20",
+    "april 9, 2026",
+    "august 4",
+    "february 12, 2026",
+    "february 4, 2026",
+    "november 16",
+    "october 23, 2025",
+    "october 23, 2026",
+    "september 24, 2026"
+   ],
+   "estados": [
+    "now open",
+    "registration"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://excellenceawards.brandonhall.com/faq/": {
+   "hash": "908609df77f04b6c1d70bff8c59984b95b85e3eb1df376deda668719f58ef94a",
+   "fechas": [
+    "april 10, 2026",
+    "april 20, 2026",
+    "aug. 13, 2026",
+    "august 13, 2026",
+    "december 3, 2026",
+    "january 5, 2026",
+    "september 4, 2026"
+   ],
+   "estados": [
+    "closed",
+    "deadline"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://qsrea.evessiocloud.com/reimagine2026/en/page/frequently-asked-questions": {
+   "hash": "81d5f22778d1a04e803abbe2db82c17c76c3ecae3e82e335f9764c085fa6b2ed",
+   "fechas": [
+    "31 july 2026"
+   ],
+   "estados": [
+    "applications open",
+    "deadline",
+    "now open"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://learnx.live/": {
+   "hash": "b97cb92a22ab63a9d4b1665bb8dc32df9621d914ef606317b726359ba379c9f4",
+   "fechas": [
+    "10 dec 2026",
+    "2 oct",
+    "8 dec"
+   ],
+   "estados": [
+    "closed",
+    "closing",
+    "deadline",
+    "registration"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://bettawards.com/winners-2026/": {
+   "hash": "f759a8a40e7a62df1562e88a5609eba1a0d73b7b3e4864e2cbeb13c92444c054",
+   "fechas": [],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://bettawards.com/": {
+   "hash": "c08012751c75a73526ed2c2c74391abebc98701211fcab51f6c304b882684a45",
+   "fechas": [
+    "05 nov",
+    "20 january 2027"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://gesawards.io/winners/2025": {
+   "hash": "f759a8a40e7a62df1562e88a5609eba1a0d73b7b3e4864e2cbeb13c92444c054",
+   "fechas": [],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://gesawards.io/": {
+   "hash": "9c757fd9939310998f0d4f2991efdfd2718be867af80f479f4159f471187a58d",
+   "fechas": [
+    "dec 3, 2026",
+    "nov 10, 2026",
+    "nov 11, 2026",
+    "nov 17, 2026",
+    "nov 18, 2026",
+    "nov 19, 2026",
+    "nov 20, 2026",
+    "nov 24, 2026",
+    "nov 25, 2026",
+    "oct 13, 2026",
+    "oct 14, 2026",
+    "oct 22, 2026",
+    "oct 23, 2026",
+    "oct 27, 2026",
+    "sept 18, 2026"
+   ],
+   "estados": [
+    "applications are open",
+    "deadline"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.wise-qatar.org/innovation/wise-prize-for-education": {
+   "hash": "7059b76c1099385a338e2088085ce493b2da892aa2a056b306f6194ab1379c35",
+   "fechas": [
+    "27 june 2026",
+    "june 27, 2026",
+    "may 10, 2026"
+   ],
+   "estados": [
+    "closed",
+    "deadline",
+    "submissions open"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.unesco.org/en/articles/unesco-ict-prize-awards-dynamic-projects-promoting-creativity-and-critical-thinking-finland-and": {
+   "hash": "ef663f54fb5c206774227b7338712a3d6f03183bfd8a02c4454f10dc66e5a7d0",
+   "fechas": [
+    "13 january 2027",
+    "15 january 2027",
+    "16 december 2026",
+    "18 december 2026",
+    "20 april 2027",
+    "27 october 2026",
+    "9 september 2026"
+   ],
+   "estados": [
+    "now open"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.unesco.org/en/prizes/ict-education": {
+   "hash": "f43d0c782f7cbeedfedc813e757a5c242dfe2798b227b90391300c5fe9149171",
+   "fechas": [
+    "26 february 2025",
+    "29 may 2026",
+    "30 march 2026",
+    "9 october 2025",
+    "9 september 2026"
+   ],
+   "estados": [
+    "deadline"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://edtechbreakthrough.com/edtech-2026-winners/": {
+   "hash": "f759a8a40e7a62df1562e88a5609eba1a0d73b7b3e4864e2cbeb13c92444c054",
+   "fechas": [],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://edtechbreakthrough.com/": {
+   "hash": "98ecfc8a7fa7bf3e229d3aa6a4a9b9dec787af4319d57627689a159ffd3e7f23",
+   "fechas": [
+    "january 1",
+    "march 21, 2026"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://asia.bettshow.com/page/bett-asia-awards": {
+   "hash": "111ee7c6130c6b23fc6cd7bc31a4713da0415962c0b86b78642a42a1cde06f11",
+   "fechas": [
+    "10 november 2027",
+    "16 july 2026",
+    "22 january 2027",
+    "23 september",
+    "23 september 2026",
+    "26 may 2026",
+    "29 september",
+    "30 september",
+    "7 may 2027"
+   ],
+   "estados": [
+    "applications open",
+    "closed"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://brasil.bettshow.com/bett-blog/conheca-os-vencedores-premio-edtech-awards-bett-brasil": {
+   "hash": "26367eec746a5929c45f8e56969cd4ff3c6ebabb423edb8886438694db52df74",
+   "fechas": [
+    "10 november 2027",
+    "22 jan 2027"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://brasil.bettshow.com/bett-blog/bett-brasil-edtech-awards-abre-inscricoes-para-startups-que-estao-transformando-educacao": {
+   "hash": "85a968037d56e0cbaee81974dac57b19cb73ba2fa57da4ca49a1a4bc00bfb05d",
+   "fechas": [
+    "10 november 2027",
+    "22 jan 2027",
+    "6 de abril de 2026",
+    "9 de mar"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": {
+   "hash": "562fc0d4df27d2765716eb295614df78e832cc654ced2debccde6fb6d06cee3f",
+   "fechas": [
+    "01/28/2026",
+    "27 octubre 2026",
+    "28/01/2026",
+    "29 de enero"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://tecprize.tec.mx/es": {
+   "hash": "e39a6bd168774056c5fccef9f73c569a084e89812b6ce247f7727fe25885e332",
+   "fechas": [
+    "19 de agosto",
+    "28 enero 2027",
+    "30 de septiembre de 2026"
+   ],
+   "estados": [
+    "abierta",
+    "convocatoria cerrada"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.uv.mx/dgdaie/la-universidad-veracruzana-destaca-en-el-premio-rie-360-a-la-innovacion-educativa/": {
+   "hash": "b17e1aa3d6dc743d00713fc81e67d4c30b595f14334aedbe1cd82c5f83876efa",
+   "fechas": [
+    "19 octubre",
+    "29 de enero"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  },
+  "https://www.edtechdigest.com/2026-finalists-winners/": {
+   "hash": "59b7b1a57110c3f3fce6d0d115e4d96e1c367399318e39ec251ab5c10f2255d7",
+   "fechas": [],
+   "estados": [
+    "closed"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.edtechdigest.com/enter-awards/": {
+   "hash": "b9640c3f42377a4347097f5c582083aa890f2ee7b0e5bab169c67e0edbaab4ec",
+   "fechas": [],
+   "estados": [
+    "now open"
+   ],
+   "since": "2026-10-28"
+  },
+  "https://www.fundaciontelefonica.com/noticias/enlighted-awards-2021/": {
+   "hash": "9fb2e37d00703f3af31ae0651e083ac92cf6382c83674d356daa3a3f99462b39",
+   "fechas": [
+    "21 de octubre"
+   ],
+   "estados": [],
+   "since": "2026-10-28"
+  }
+ },
+ "sent": {
+  "m|14|2026-10": "2026-10-28",
+  "m|15|2026-Q4": "2026-10-28"
+ },
+ "fails": {
+  "https://usdla.org/international-awards/": 0,
+  "https://media-and-learning.eu/awards/": 0,
+  "https://www.edtechinnovationhub.com/etih-innovation-awards-2027/about-the-edtech-innovation-hub-awards-2027": 0,
+  "https://codieawards.com/": 0,
+  "https://www.ielassoc.org/about-the-iela-awards": 0,
+  "https://www.africatechsummit.com/awards/": 0,
+  "https://www.learningtechnologies.co.uk/2025-winners": 0,
+  "https://www.learningtechnologies.co.uk/learning-tech-awards/enter-an-award/presentation-guidelines": 0,
+  "https://www.ifema.es/simo-educacion/noticias/35-experiencias-finalistas-xiv-premios-innovacion-educativa": 0,
+  "https://www.ifema.es/simo-educacion/doc/bases-convocatoria-simo-experiencias/bases-participacion-simo-experiencias-2026.pdf": 0,
+  "https://onlinelearningconsortium.org/olc-in-the-news/2026/10/accelerate-2026-award-recipients/": 0,
+  "https://excellenceawards.brandonhall.com/faq/": 0,
+  "https://content.qs.com/reimagine2025/2025_QS_Reimagine_Education_Awards_Category_Winners.pdf": 0,
+  "https://qsrea.evessiocloud.com/reimagine2026/en/page/frequently-asked-questions": 0,
+  "https://learnx.live/": 0,
+  "https://bettawards.com/winners-2026/": 0,
+  "https://bettawards.com/": 0,
+  "https://gesawards.io/winners/2025": 0,
+  "https://gesawards.io/": 0,
+  "https://www.wise-qatar.org/innovation/wise-prize-for-education": 0,
+  "https://www.unesco.org/en/articles/unesco-ict-prize-awards-dynamic-projects-promoting-creativity-and-critical-thinking-finland-and": 0,
+  "https://www.unesco.org/en/prizes/ict-education": 0,
+  "https://edtechbreakthrough.com/edtech-2026-winners/": 0,
+  "https://edtechbreakthrough.com/": 0,
+  "https://asia.bettshow.com/page/bett-asia-awards": 0,
+  "https://brasil.bettshow.com/bett-blog/conheca-os-vencedores-premio-edtech-awards-bett-brasil": 0,
+  "https://brasil.bettshow.com/bett-blog/bett-brasil-edtech-awards-abre-inscricoes-para-startups-que-estao-transformando-educacao": 0,
+  "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": 0,
+  "https://tecprize.tec.mx/es": 0,
+  "https://www.uv.mx/dgdaie/la-universidad-veracruzana-destaca-en-el-premio-rie-360-a-la-innovacion-educativa/": 0,
+  "https://www.rie360.mx/premio.html": 1,
+  "https://www.edtechdigest.com/2026-finalists-winners/": 0,
+  "https://www.edtechdigest.com/enter-awards/": 0,
+  "https://www.fundaciontelefonica.com/noticias/enlighted-awards-2021/": 0
+ }
 }
