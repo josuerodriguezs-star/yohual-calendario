@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Premiaciones EdTech · Trayectorias</title>
+<html lang="es"><head><script>try{if(localStorage.getItem("cal-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Premiaciones EdTech · Trayectorias</title>
 <style>
 :root{--ink:#182c33;--muted:#61767b;--line:#dce4e4;--paper:#f5f7f5;--green:#14584b}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #d68a27;outline-offset:3px}button{border:1px solid var(--line);border-radius:9px;background:white;color:var(--ink);padding:9px 13px}button:hover{background:#edf2ee}a{color:#175f9c}header{background:#123f39;color:white;padding:36px max(24px,calc((100vw - 1440px)/2));position:relative}header .eyebrow{color:#b4d9c6;letter-spacing:3px;font-size:11px;font-weight:750}h1{font-size:clamp(28px,4vw,47px);font-weight:600;line-height:1.13;letter-spacing:-1.5px;margin:15px 0}header p{color:#d0e0da;max-width:700px;margin:0}.topline{display:flex;justify-content:space-between;gap:20px;align-items:center}.stamp{font-size:12px;border:1px solid #49746a;padding:9px 14px;border-radius:30px;white-space:nowrap}.layout{max-width:1488px;margin:auto;padding:26px 24px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:26px}aside{background:white;border:1px solid var(--line);border-radius:16px;padding:19px;align-self:start}h2{font-size:19px;margin:0}aside p,.help{color:var(--muted);font-size:12px}.legend{display:grid;gap:4px;margin-top:14px}.legend button{text-align:left;display:flex;align-items:center;gap:9px;border:1px solid transparent;padding:7px 6px;font-size:12px}.legend button[aria-pressed=true]{background:#e8f0eb;border-color:#819c8d}.swatch{width:11px;height:11px;background:var(--c);border-radius:50%;flex:none}.num{font-size:10px;font-weight:800;opacity:.7}main{min-width:0}.stats{display:flex;gap:26px;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:20px}.stats strong{font-size:26px;line-height:1}.stats span{display:block;color:var(--muted);font-size:11px;margin-top:5px}.tools{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:18px}input,select{background:white;border:1px solid var(--line);border-radius:9px;padding:10px;max-width:100%;color:var(--ink)}input{flex:1;min-width:180px}.tabs{display:flex;gap:4px}.tabs .active{background:var(--green);color:white}.nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0}.nav h2{text-transform:capitalize;font-size:25px}.nav .controls{display:flex;gap:5px}.calendar{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:white}.week,.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}.week div{text-align:center;background:#eaf0ec;font-size:11px;padding:10px;font-weight:700}.day{min-height:112px;padding:6px;border-right:1px solid #e5ebea;border-bottom:1px solid #e5ebea}.day:nth-child(7n){border-right:0}.day.blank{background:#f8faf8}.day b{font-size:12px;color:#697c7c;font-weight:500;padding:2px 4px;display:inline-block}.event{display:block;text-align:left;width:100%;border:0;border-left:4px solid var(--c);border-radius:5px;background:color-mix(in srgb,var(--c) 9%,white);padding:6px;margin:4px 0;font-size:10px;line-height:1.4;color:var(--ink);overflow-wrap:anywhere}.event strong{display:block;font-size:11px}.event:hover{background:color-mix(in srgb,var(--c) 18%,white)}.historical{border-left-style:dashed}.tag{font-size:10px;font-weight:700;letter-spacing:.3px;color:var(--muted);text-transform:uppercase}.approx{padding:16px;border:1px dashed #b5c8c1;background:#edf3ef;border-radius:12px;margin-top:15px}.approx h3{font-size:14px;margin:0 0 10px}.approx .event{font-size:12px;padding:10px}.notice{font-size:12px;color:var(--muted);margin:15px 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:12px}.card{text-align:left;padding:20px;border-radius:13px;border-top:4px solid var(--c)}.card strong{display:block;font-size:17px;margin:7px 0}.card p{margin:8px 0;color:var(--muted);font-size:12px}.pill{font-size:10px;border:1px solid var(--line);padding:3px 7px;border-radius:20px;display:inline-block}.agenda-row{display:grid;grid-template-columns:115px 1fr;gap:18px;margin-bottom:10px;align-items:start}.agenda-row time{font-size:12px;padding-top:12px;color:var(--muted)}.agenda-row .event{font-size:12px;padding:12px}.agenda-row .event strong{font-size:14px}.empty{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}dialog{border:0;border-radius:18px;padding:0;max-width:690px;width:calc(100% - 28px);max-height:90vh;box-shadow:0 20px 90px #0005;color:var(--ink)}dialog::backdrop{background:#102c32b3;backdrop-filter:blur(4px)}.modalhead{padding:26px 28px 20px;border-top:7px solid var(--c);background:#f3f6f2}.modalhead h2{font-size:28px;margin:10px 0}.close{float:right;border:0;background:white;font-size:19px;padding:3px 11px}.modalbody{padding:23px 28px}.modalbody h3{font-size:13px;margin:23px 0 7px;color:var(--green);text-transform:uppercase;letter-spacing:.6px}.modalbody p{font-size:14px;margin:5px 0}.detaildates{list-style:none;padding:0;margin:0}.detaildates li{padding:10px 0;border-bottom:1px solid var(--line);font-size:13px}.detaildates strong{display:block}.linkbutton{display:block;background:var(--green);color:white;border-radius:9px;padding:12px 16px;text-decoration:none;margin-top:22px;font-size:14px}.secondary{display:block;margin-top:10px;font-size:12px}footer{max-width:1440px;margin:0 auto;padding:0 24px 25px;font-size:11px;color:var(--muted)}.mobilelegend{display:none}
 @media(max-width:850px){.layout{grid-template-columns:1fr}.legend{grid-template-columns:repeat(3,1fr)}aside{order:2}.stats{gap:18px}.stamp{display:none}.day{min-height:90px;padding:3px}.event{padding:4px;font-size:9px}.event strong{font-size:10px}.topline{display:block}.layout{padding:18px 12px}.tools{gap:6px}.nav{flex-wrap:wrap}.legend button{font-size:11px}}@media(max-width:500px){.legend{grid-template-columns:repeat(2,1fr)}.calendar{overflow:auto}.week,.grid{min-width:630px}.stats strong{font-size:22px}.agenda-row{grid-template-columns:85px 1fr;gap:8px}.modalbody,.modalhead{padding:20px}.tabs{width:100%}.tabs button{flex:1}.nav h2{font-size:22px}}@media print{aside,.tools,.controls,dialog,header .stamp{display:none}header{background:white;color:black}header p{color:#555}.layout{display:block}.event{break-inside:avoid}body{background:white}}
@@ -93,18 +93,123 @@ ul.hl{margin:0;padding-left:18px;font-size:14px;line-height:1.6}
 @media(prefers-reduced-motion:reduce){.aw-body{animation:none}}
 .aw.open .aw-next,.aw.open .aw-prize{display:none}
 .aw.open .aw-head{padding-bottom:10px}
-</style></head><body><canvas id="sky" aria-hidden="true"></canvas><div class="vignette" aria-hidden="true"></div><div id="atlas">
-<header class="top"><div class="topline"><div class="eyebrow">OBSERVATORIO · INNOVACIÓN EDUCATIVA</div><div class="stamp" id="stamp">Cargando…</div></div>
+
+/* ===== centrado ===== */
+header.top{text-align:center}
+header.top p{margin-inline:auto}
+header.top .stamp{display:inline-block!important;margin-top:16px;font-size:12px}
+.tools,.chips{justify-content:center}
+.tools input{flex:0 1 420px}
+.notice,#caption,footer{text-align:center}
+/* ===== botón de tema ===== */
+.themebtn{position:fixed;top:16px;right:16px;z-index:30;width:42px;height:42px;padding:0;border-radius:50%;display:grid;place-items:center;backdrop-filter:blur(8px)}
+.themebtn svg{width:19px;height:19px}
+.themebtn .i-moon{display:none}
+:root[data-theme=light] .themebtn .i-sun{display:none}
+:root[data-theme=light] .themebtn .i-moon{display:block}
+/* ===== modo claro (inspirado en VS Code Light+) ===== */
+:root[data-theme=light]{--void:#ffffff;--star:#1f2328;--dust:#4b5563;--faint:#6b7280;--sol:#005fb8;--line:#d8dce2;color-scheme:light}
+:root[data-theme=light] #sky,:root[data-theme=light] .vignette{display:none}
+:root[data-theme=light] body,:root[data-theme=light] #atlas{background:#ffffff}
+:root[data-theme=light] button,:root[data-theme=light] input,:root[data-theme=light] select{background:#ffffff;color:#1f2328;border-color:#cdd3da}
+:root[data-theme=light] button:hover{background:#f3f4f6}
+:root[data-theme=light] ::selection{background:rgba(0,95,184,.2)}
+:root[data-theme=light] .themebtn{background:rgba(255,255,255,.9);box-shadow:0 1px 4px rgba(16,24,40,.12)}
+:root[data-theme=light] .chips button,:root[data-theme=light] .tools input{background:#ffffff}
+:root[data-theme=light] .chips button[aria-pressed=true]{background:#005fb8;color:#fff;border-color:#005fb8}
+:root[data-theme=light] .soon{border-color:#005fb840;background:rgba(0,95,184,.06)}
+:root[data-theme=light] .stamp{background:#f3f4f6;border-color:var(--line)}
+:root[data-theme=light] .aw{background:#f7f8fa;border-color:var(--line);box-shadow:0 1px 2px rgba(16,24,40,.05)}
+:root[data-theme=light] .aw:hover{background:#f1f3f6;border-color:#c3cad3}
+:root[data-theme=light] .aw.open{background:#ffffff;border-color:#b9c4d2;border-top-color:var(--c);box-shadow:0 6px 24px rgba(16,24,40,.08)}
+:root[data-theme=light] .aw-head{color:#1f2328}
+:root[data-theme=light] .aw-next{background:rgba(16,24,40,.04);border-color:rgba(16,24,40,.08)}
+:root[data-theme=light] .aw-next.none{background:transparent}
+:root[data-theme=light] .st-abierta{color:#1a7f37;border-color:#1a7f3755;background:rgba(26,127,55,.08)}
+:root[data-theme=light] .st-proxima-apertura{color:#005fb8;border-color:#005fb855;background:rgba(0,95,184,.07)}
+:root[data-theme=light] .st-por-verificar{color:#8250df;border-color:#8250df55;background:rgba(130,80,223,.07)}
+:root[data-theme=light] .chip{background:rgba(0,95,184,.1);color:#005fb8}
+:root[data-theme=light] .chip.past{background:rgba(16,24,40,.06);color:var(--faint)}
+:root[data-theme=light] .aw-box{background:#f7f8fa;border-color:#e3e6ea}
+:root[data-theme=light] .tl li:before{background:#ffffff}
+:root[data-theme=light] .tl li.next:before{background:#005fb8;border-color:#005fb8;box-shadow:0 0 0 4px rgba(0,95,184,.18)}
+:root[data-theme=light] .tl li.now:before{background:#1a7f37;border-color:#1a7f37;box-shadow:0 0 0 4px rgba(26,127,55,.18)}
+:root[data-theme=light] .cats span{background:#ffffff;border-color:#d0d7de}
+:root[data-theme=light] .aw-actions .main{background:#005fb8;color:#ffffff}
+:root[data-theme=light] header.top h1{color:#1f2328}
+:root[data-theme=light] a{color:#005fb8}
+
+/* ===== v4: vista de 3 meses ===== */
+.months{--ring:rgba(236,232,222,.62);margin:16px 0 28px}
+.mhead{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:10px}
+.mhead h2{font-size:26px;margin:0;line-height:1.1}
+.mnav{display:flex;gap:6px}
+.mnav button{border-radius:30px;padding:6px 14px;font-size:13px;min-width:38px}
+.mlegend{display:flex;gap:8px 18px;justify-content:center;flex-wrap:wrap;font-size:12px;color:var(--dust);margin-bottom:14px}
+.mlegend span{display:inline-flex;align-items:center;gap:7px}
+.mgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.mon{background:rgba(11,17,30,.72);border:1px solid var(--line);border-radius:14px;padding:16px 14px 14px}
+.mon h3{font-size:23px;margin:0 0 10px;text-transform:capitalize;text-align:center;line-height:1.1}
+.mwk,.mdays{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}
+.mwk span{font-size:10px;letter-spacing:.1em;text-align:center;color:var(--faint);padding-bottom:5px}
+.mday{all:unset;box-sizing:border-box;aspect-ratio:1/1.08;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:5px 2px 4px;font-size:12px;line-height:1;color:var(--dust);position:relative;min-width:0}
+.mday.blank{visibility:hidden}
+button.mday{cursor:pointer;color:var(--star);background:rgba(236,232,222,.07)}
+button.mday:hover{background:rgba(236,232,222,.14);transform:translateY(-1px)}
+button.mday:focus-visible{outline:2px solid var(--sol);outline-offset:1px}
+.mday.today{outline:1.5px solid var(--sol);outline-offset:-1.5px;color:var(--star);font-weight:700}
+.mday.rg{box-shadow:inset 0 -3px 0 var(--rc)}
+.mday.inr{background:color-mix(in srgb,var(--rc) 14%,transparent)}
+button.mday.key{background:color-mix(in srgb,var(--c) 38%,transparent);box-shadow:inset 0 0 0 1px var(--c)}
+button.mday.key:hover{background:color-mix(in srgb,var(--c) 52%,transparent)}
+button.mday.key.rg{box-shadow:inset 0 0 0 1px var(--c),inset 0 -3px 0 var(--rc)}
+button.mday.sel{outline:2px solid var(--star);outline-offset:1px}
+.pips{display:flex;gap:2px;justify-content:center;align-items:center;min-height:9px}
+.pip{display:inline-block;box-sizing:border-box;width:9px;height:9px;border-radius:50%;background:var(--c);box-shadow:0 0 0 1px var(--ring);flex:none}
+.pip.ci{border-radius:2px}
+.pip.ot{background:transparent;border:2px solid var(--c);box-shadow:0 0 0 1px var(--ring)}
+.pips small{font-size:9px;color:var(--dust);margin-left:1px}
+.mnote{margin-top:11px;padding-top:10px;border-top:1px dashed var(--line);font-size:11px;color:var(--faint)}
+.mnote>span{display:block;margin-bottom:6px;letter-spacing:.08em;text-transform:uppercase;font-size:10px}
+.mnote button,.mawards button{border-radius:30px;padding:4px 10px;font-size:12px;display:inline-flex;align-items:center;gap:7px;margin:0 6px 6px 0;text-align:left}
+.dpanel{margin-top:14px;border:1px solid var(--line);border-radius:12px;padding:14px 18px;background:rgba(11,17,30,.72)}
+.dpanel.hint{text-align:center;color:var(--faint);font-size:13px;padding:11px 16px}
+.dp-h{font-family:'Instrument Serif',Georgia,serif;font-size:21px;margin-bottom:8px}
+.dpanel ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.dp-i{all:unset;box-sizing:border-box;display:flex;gap:10px;align-items:flex-start;width:100%;cursor:pointer;padding:8px 10px;border-radius:9px;color:var(--star);border-left:3px solid var(--c);background:rgba(236,232,222,.05)}
+.dp-i:hover{background:rgba(236,232,222,.1)}
+.dp-i:focus-visible{outline:2px solid var(--sol)}
+.dp-i .pip{margin-top:4px}
+.dp-i span{font-size:14px;line-height:1.35}
+.dp-i small{display:block;font-size:12px;color:var(--dust)}
+.mawards{display:flex;flex-wrap:wrap;justify-content:center;margin-top:14px}
+.mawards p{width:100%;text-align:center;margin:0 0 8px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+@media(max-width:1000px){.mgrid{grid-template-columns:1fr;max-width:460px;margin-inline:auto}}
+@media(max-width:650px){.mhead h2{font-size:22px}.mon{padding:14px 10px 12px}}
+:root[data-theme=light] .months{--ring:#ffffff}
+:root[data-theme=light] .mon,:root[data-theme=light] .dpanel{background:#f7f8fa;border-color:var(--line);box-shadow:0 1px 2px rgba(16,24,40,.05)}
+:root[data-theme=light] button.mday{background:rgba(16,24,40,.05);color:#1f2328}
+:root[data-theme=light] button.mday:hover{background:rgba(16,24,40,.1)}
+:root[data-theme=light] button.mday.key{background:color-mix(in srgb,var(--c) 26%,#fff)}
+:root[data-theme=light] button.mday.key:hover{background:color-mix(in srgb,var(--c) 38%,#fff)}
+:root[data-theme=light] button.mday.sel{outline-color:#1f2328}
+:root[data-theme=light] .mday.inr{background:color-mix(in srgb,var(--rc) 14%,#fff)}
+:root[data-theme=light] .dp-i{background:#fff;border:1px solid #e3e6ea;border-left:3px solid var(--c)}
+:root[data-theme=light] .dp-i:hover{background:#f1f3f6}
+</style></head><body><canvas id="sky" aria-hidden="true"></canvas><div class="vignette" aria-hidden="true"></div><button id="themeBtn" class="themebtn" type="button" aria-label="Cambiar entre tema oscuro y claro" title="Tema claro / oscuro"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+<div id="atlas">
+<header class="top"><div class="eyebrow">OBSERVATORIO · INNOVACIÓN EDUCATIVA</div>
 <h1>Premiaciones de educación y tecnología</h1>
 <p>Cada tarjeta resume lo esencial. Toca una para ver sus fechas importantes, características y la convocatoria oficial.</p>
-<p class="soon" id="soon" hidden></p></header>
+<p class="soon" id="soon" hidden></p><div class="stamp" id="stamp">Cargando…</div></header>
 <main class="wrap">
 <div class="tools"><input id="search" type="search" placeholder="Buscar premio, país o tema…" aria-label="Buscar premios"><div class="chips" id="chips" role="group" aria-label="Filtrar por estado"></div></div>
 <p class="notice" id="caption" aria-live="polite"></p>
+<section id="months" class="months" aria-label="Calendario de los próximos meses"></section>
 <section id="list" class="awgrid" aria-live="polite"></section>
 <p class="notice">Una fecha próxima no implica que la convocatoria siga abierta: confirma siempre las bases vigentes antes de postular.</p>
 </main>
-<footer>Datos curados a mano y vigilados cada día contra las páginas oficiales: si una fuente cambia, el autor recibe un aviso para revisarla. · <a href="calendario.ics">Suscribirse a las fechas (.ics)</a> · <a href="https://github.com/josuerodriguezs-star/yohual-calendario" rel="noopener">Colaborar en GitHub</a></footer>
+<footer>Esta información se actualiza a mano, con los datos completos de cada premiación, para tener los proyectos lo mejor preparados para participar en cualquiera de estas convocatorias.<br><a href="https://yohual.com" rel="noopener">Sigue la página</a> · <a href="https://www.paypal.com/donate/?hosted_button_id=CPZSRLQYEAAXW" target="_blank" rel="noopener noreferrer">Apoya al desarrollador</a> · <a href="https://github.com/sponsors/josuerodriguezs-star" target="_blank" rel="noopener noreferrer">GitHub Sponsors</a> · <a href="https://github.com/josuerodriguezs-star/yohual-calendario" rel="noopener">Colaborar en GitHub</a></footer>
 </div><div id="modal" hidden></div>
 <script>
 let awards=[],sourceUrls={},META={updated:''},openId=null,query='',statusF='all';
@@ -185,13 +290,62 @@ function body(a){
   '<a class="sec" href="'+issue+'" target="_blank" rel="noopener noreferrer">Sugerir corrección</a>'+
   '<span class="ver">Verificado el '+esc(fmtVer(a.verified))+'</span></div>'}
 const fmtVer=v=>v?fmtDay(v):'sin verificar';
-function render(){
+function render(){renderMonths();
  $('chips').innerHTML=Object.keys(FILT).map(k=>'<button data-f="'+k+'" aria-pressed="'+(statusF===k)+'">'+FNAME[k]+'<small>'+awards.filter(FILT[k]).length+'</small></button>').join('');
  const list=sorted(awards.filter(matches));
  $('caption').textContent=list.length+' de '+awards.length+' premiaciones';
  $('list').innerHTML=list.map(card).join('')||'<p class="empty">No hay coincidencias. Prueba con otra búsqueda o filtro.</p>';
  const t=awards.flatMap(a=>a.status==='Abierta'||a.status==='Próxima apertura'?a.events.filter(p=>p.kind==='Cierre'&&prec(p.date)==='d'&&when(p).st!=='past').map(p=>({a,p})):[]).sort((x,y)=>startOf(x.p.date).localeCompare(startOf(y.p.date)))[0];
  if(t){const s=$('soon');s.hidden=false;s.innerHTML='Próximo cierre: <b>'+esc(t.a.name)+'</b> · '+esc(fmtDate(t.p))+' · <b>'+esc(when(t.p).txt)+'</b>'}}
+/* ===== v4: vista de 3 meses ===== */
+let monthOff=0,selDay=null,focusSel=null;
+const WK=['L','M','M','J','V','S','D'];
+function calEvents(list){const ex={},mo={},rng=[];
+ list.forEach(a=>{const ev=a.events.filter(e=>e.kind!=='Histórico').slice().sort((x,y)=>startOf(x.date).localeCompare(startOf(y.date)));
+  ev.forEach((e,i)=>{const p=prec(e.date);
+   if(p==='d'){(ex[e.date]=ex[e.date]||[]).push({a,e});let end=null;
+    if(e.span){const c=ev.find((x,k)=>k>i&&x.kind==='Cierre'&&prec(x.date)==='d');if(c)end=c.date}
+    else if(e.end&&prec(e.end)==='d')end=e.end;
+    if(end&&end>e.date)rng.push({a,from:e.date,to:end})}
+   else if(p==='m'){(mo[e.date]=mo[e.date]||[]).push({a,e})}})});
+ return{ex,mo,rng}}
+const pipK=k=>k==='Apertura'?'ap':k==='Cierre'?'ci':'ot';
+const pip=(k,c)=>'<i class="pip '+pipK(k)+'" style="--c:'+esc(c)+'"></i>';
+function renderMonths(){const el=$('months');if(!el)return;
+ const list=awards.filter(matches),{ex,mo,rng}=calEvents(list);
+ const base=new Date(Date.UTC(+TODAY.slice(0,4),+TODAY.slice(5,7)-1+monthOff,1));
+ const months=[0,1,2].map(i=>{const d=new Date(Date.UTC(base.getUTCFullYear(),base.getUTCMonth()+i,1));return{y:d.getUTCFullYear(),m:d.getUTCMonth()}});
+ const seen=new Map(),shown=new Set();
+ const cards=months.map(({y,m})=>{
+  const first=(new Date(Date.UTC(y,m,1)).getUTCDay()+6)%7,n=new Date(Date.UTC(y,m+1,0)).getUTCDate();
+  let cells='';for(let i=0;i<first;i++)cells+='<span class="mday blank"></span>';
+  for(let d=1;d<=n;d++){const ds=y+'-'+pad(m+1)+'-'+pad(d),evs=ex[ds]||[],rs=rng.filter(r=>r.from<=ds&&ds<=r.to);
+   shown.add(ds);evs.forEach(x=>seen.set(x.a.id,x.a));rs.forEach(r=>seen.set(r.a.id,r.a));
+   const today=ds===TODAY?' today':'';
+   if(!evs.length){cells+=rs.length?'<span class="mday inr rg'+today+'" style="--rc:'+esc(rs[0].a.color)+'"><span>'+d+'</span></span>':'<span class="mday'+today+'"><span>'+d+'</span></span>';continue}
+   const key=evs.find(x=>x.e.kind==='Apertura'||x.e.kind==='Cierre'),c=(key||evs[0]).a.color;
+   const lab=d+' de '+MESL[m]+': '+evs.map(x=>x.a.name+' ('+x.e.kind.toLowerCase()+')').join(', ');
+   const ord=evs.slice().sort((a,b)=>(KORD[a.e.kind]??9)-(KORD[b.e.kind]??9));
+   cells+='<button type="button" class="mday'+(key?' key':'')+(rs.length?' rg':'')+today+(selDay===ds?' sel':'')+'" data-d="'+ds+'" aria-label="'+esc(lab)+'" aria-pressed="'+(selDay===ds)+'" style="--c:'+esc(c)+(rs.length?';--rc:'+esc(rs[0].a.color):'')+'"><span>'+d+'</span><span class="pips">'+
+    ord.slice(0,3).map(x=>pip(x.e.kind,x.a.color)).join('')+(ord.length>3?'<small>+'+(ord.length-3)+'</small>':'')+'</span></button>'}
+  const mk=y+'-'+pad(m+1),ml=(mo[mk]||[]).slice().sort((a,b)=>(KORD[a.e.kind]??9)-(KORD[b.e.kind]??9));
+  ml.forEach(x=>seen.set(x.a.id,x.a));
+  const note=ml.length?'<div class="mnote"><span>Mes confirmado, día por definir</span>'+ml.map(x=>'<button type="button" data-open="'+x.a.id+'">'+pip(x.e.kind,x.a.color)+esc(x.a.name)+' · '+esc(x.e.kind)+'</button>').join('')+'</div>':'';
+  return '<section class="mon" aria-label="'+MESL[m]+' '+y+'"><h3>'+MESL[m]+' '+y+'</h3><div class="mwk" aria-hidden="true">'+WK.map(w=>'<span>'+w+'</span>').join('')+'</div><div class="mdays">'+cells+'</div>'+note+'</section>'}).join('');
+ const f=months[0],l=months[2];
+ const sel=selDay&&shown.has(selDay)&&ex[selDay]?ex[selDay]:null;if(!sel)selDay=null;
+ const panel=sel?'<div class="dpanel" aria-live="polite"><div class="dp-h">'+esc(fmtDay(selDay))+'</div><ul>'+sel.slice().sort((a,b)=>(KORD[a.e.kind]??9)-(KORD[b.e.kind]??9)).map(x=>'<li><button type="button" class="dp-i" data-open="'+x.a.id+'" style="--c:'+esc(x.a.color)+'">'+pip(x.e.kind,x.a.color)+'<span><b>'+esc(x.a.name)+'</b> · '+esc(x.e.kind)+'<small>'+esc(x.e.label)+' — ver la ficha</small></span></button></li>').join('')+'</ul></div>'
+  :'<div class="dpanel hint">Toca un día marcado para ver qué premios tienen fechas ese día.</div>';
+ const aw=[...seen.values()].sort((a,b)=>a.name.localeCompare(b.name));
+ el.innerHTML='<div class="mhead"><div class="mnav"><button type="button" data-mnav="-1" aria-label="Mes anterior">‹</button><button type="button" data-mnav="0">Hoy</button><button type="button" data-mnav="1" aria-label="Mes siguiente">›</button></div><h2>'+MES[f.m]+' '+f.y+' – '+MES[l.m]+' '+l.y+'</h2></div>'+
+  '<div class="mlegend"><span>'+pip('Apertura','#8a93a8')+'Apertura</span><span>'+pip('Cierre','#8a93a8')+'Cierre</span><span>'+pip('Premiación','#8a93a8')+'Resultados · premiación</span><span>Color = premiación</span></div>'+
+  '<div class="mgrid">'+cards+'</div>'+panel+
+  (aw.length?'<div class="mawards"><p>Premios con fechas en este periodo</p>'+aw.map(a=>'<button type="button" data-open="'+a.id+'"><i class="pip ap" style="--c:'+esc(a.color)+'"></i>'+esc(a.name)+'</button>').join('')+'</div>':'');
+ if(focusSel){const t=el.querySelector(focusSel);if(t)t.focus({preventScroll:true});focusSel=null}}
+document.addEventListener('click',e=>{
+ const nv=e.target.closest('[data-mnav]');if(nv){const v=+nv.dataset.mnav;monthOff=v===0?0:monthOff+v;focusSel='[data-mnav="'+v+'"]';return renderMonths()}
+ const dy=e.target.closest('button.mday');if(dy){selDay=selDay===dy.dataset.d?null:dy.dataset.d;focusSel='[data-d="'+dy.dataset.d+'"]';return renderMonths()}
+ const op=e.target.closest('[data-open]');if(op){const id=Number(op.dataset.open);if(openId!==id)toggle(id);else{const c=$('premio-'+id);if(c)c.scrollIntoView({behavior:'smooth',block:'start'})}}});
 function toggle(id,scroll=true){openId=openId===id?null:id;render();
  try{history.replaceState(null,'',openId?'#premio-'+openId:location.pathname+location.search)}catch(e){}
  if(openId&&scroll){const el=$('premio-'+openId);if(el)el.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}}
@@ -203,6 +357,7 @@ fetch('awards.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{awards=d.awar
  const m=location.hash.match(/^#premio-(\d+)$/);if(m&&awards.some(a=>a.id===Number(m[1])))openId=Number(m[1]);
  render();if(openId){const el=$('premio-'+openId);if(el)el.scrollIntoView({block:'start'})}})
  .catch(()=>{$('list').innerHTML='<p class="empty">No se pudo cargar awards.json.</p>'});
+$('themeBtn').addEventListener('click',()=>{const r=document.documentElement,light=r.dataset.theme==='light';if(light)delete r.dataset.theme;else r.dataset.theme='light';try{localStorage.setItem('cal-theme',light?'dark':'light')}catch(e){}});
 </script>
 <script>(()=>{'use strict';const doc=document,root=doc.documentElement,reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;let W=innerWidth,H=innerHeight;const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v)),lerp=(a,b,t)=>a+(b-a)*t,smooth=t=>t*t*(3-2*t),mix=(a,b,t)=>a.map((v,i)=>lerp(v,b[i],t));function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
 const cv=doc.getElementById('sky');
@@ -469,7 +624,7 @@ function render(dz){
 
 
 let paused=document.hidden;document.addEventListener('visibilitychange',()=>{paused=document.hidden});
-function frame(now){const dt=Math.min(.05,(now-last)/1000);last=now;if(!paused){const p=clamp(scrollY/Math.max(1,document.documentElement.scrollHeight-H));const target=p*5;stageS+=(target-stageS)*(reduce?1:1-Math.exp(-dt*5.5));if(!reduce)t+=dt;const old=cam;cam=p*.25+(reduce?0:t*.001);px+=(pxT-px)*.05;py+=(pyT-py)*.05;if(!reduce||lastY!==scrollY||dirty)render(cam-old);lastY=scrollY;dirty=false;}requestAnimationFrame(frame)}
+function frame(now){const dt=Math.min(.05,(now-last)/1000);last=now;if(!paused&&root.dataset.theme!=='light'){const p=clamp(scrollY/Math.max(1,document.documentElement.scrollHeight-H));const target=p*5;stageS+=(target-stageS)*(reduce?1:1-Math.exp(-dt*5.5));if(!reduce)t+=dt;const old=cam;cam=p*.25+(reduce?0:t*.001);px+=(pxT-px)*.05;py+=(pyT-py)*.05;if(!reduce||lastY!==scrollY||dirty)render(cam-old);lastY=scrollY;dirty=false;}requestAnimationFrame(frame)}
 addEventListener('resize',()=>{W=innerWidth;H=innerHeight;sizeCanvas();dirty=true});addEventListener('pointermove',e=>{if(e.pointerType==='touch'||reduce)return;pxT=(e.clientX/W-.5)*2;pyT=(e.clientY/H-.5)*2},{passive:true});sizeCanvas();requestAnimationFrame(frame);
 const observer=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('seen')}),{threshold:.15});document.querySelectorAll('.reveal').forEach(e=>observer.observe(e));
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('modal').hidden=true});
