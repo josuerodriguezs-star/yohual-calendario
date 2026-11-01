@@ -178,11 +178,12 @@
    "since": "2026-10-28"
   },
   "https://learnx.live/": {
-   "hash": "b97cb92a22ab63a9d4b1665bb8dc32df9621d914ef606317b726359ba379c9f4",
+   "hash": "ba639b967608f33ebd1e9f9c9d4756bc92a58da470c550a60fe037d7552fb2d3",
    "fechas": [
     "10 dec 2026",
     "2 oct",
-    "8 dec"
+    "8 dec",
+    "8 dec 2026"
    ],
    "estados": [
     "closed",
@@ -190,7 +191,7 @@
     "deadline",
     "registration"
    ],
-   "since": "2026-10-28"
+   "since": "2026-11-01"
   },
   "https://bettawards.com/winners-2026/": {
    "hash": "f759a8a40e7a62df1562e88a5609eba1a0d73b7b3e4864e2cbeb13c92444c054",
@@ -331,16 +332,17 @@
    "since": "2026-10-28"
   },
   "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": {
-   "hash": "5b88b3e931fd99b8e83597281a1f627d1281c74747c56460f4259d5a2fbec25d",
+   "hash": "ce6c417e89a33c3d8535fd41167a09fdfa6196afc00ad19d0db96ae416d4c98b",
    "fechas": [
+    "01 noviembre 2026",
     "01/28/2026",
     "28/01/2026",
     "29 de enero",
-    "29 octubre 2026",
-    "30 octubre 2026"
+    "30 octubre 2026",
+    "31 octubre 2026"
    ],
    "estados": [],
-   "since": "2026-10-31"
+   "since": "2026-11-01"
   },
   "https://tecprize.tec.mx/es": {
    "hash": "e39a6bd168774056c5fccef9f73c569a084e89812b6ce247f7727fe25885e332",
@@ -387,7 +389,8 @@
  },
  "sent": {
   "m|14|2026-10": "2026-10-28",
-  "m|15|2026-Q4": "2026-10-28"
+  "m|15|2026-Q4": "2026-10-28",
+  "m|6|2026-11": "2026-11-01"
  },
  "fails": {
   "https://usdla.org/international-awards/": 0,
@@ -405,24 +408,24 @@
   "https://content.qs.com/reimagine2025/2025_QS_Reimagine_Education_Awards_Category_Winners.pdf": 0,
   "https://qsrea.evessiocloud.com/reimagine2026/en/page/frequently-asked-questions": 0,
   "https://learnx.live/": 0,
-  "https://bettawards.com/winners-2026/": 0,
-  "https://bettawards.com/": 0,
+  "https://bettawards.com/winners-2026/": 1,
+  "https://bettawards.com/": 1,
   "https://gesawards.io/winners/2025": 0,
   "https://gesawards.io/": 0,
   "https://www.wise-qatar.org/innovation/wise-prize-for-education": 0,
   "https://www.unesco.org/en/articles/unesco-ict-prize-awards-dynamic-projects-promoting-creativity-and-critical-thinking-finland-and": 0,
   "https://www.unesco.org/en/prizes/ict-education": 0,
-  "https://edtechbreakthrough.com/edtech-2026-winners/": 0,
-  "https://edtechbreakthrough.com/": 0,
+  "https://edtechbreakthrough.com/edtech-2026-winners/": 1,
+  "https://edtechbreakthrough.com/": 1,
   "https://asia.bettshow.com/page/bett-asia-awards": 0,
   "https://brasil.bettshow.com/bett-blog/conheca-os-vencedores-premio-edtech-awards-bett-brasil": 0,
   "https://brasil.bettshow.com/bett-blog/bett-brasil-edtech-awards-abre-inscricoes-para-startups-que-estao-transformando-educacao": 0,
   "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": 0,
   "https://tecprize.tec.mx/es": 0,
   "https://www.uv.mx/dgdaie/la-universidad-veracruzana-destaca-en-el-premio-rie-360-a-la-innovacion-educativa/": 0,
-  "https://www.rie360.mx/premio.html": 6,
-  "https://www.edtechdigest.com/2026-finalists-winners/": 0,
-  "https://www.edtechdigest.com/enter-awards/": 0,
+  "https://www.rie360.mx/premio.html": 7,
+  "https://www.edtechdigest.com/2026-finalists-winners/": 1,
+  "https://www.edtechdigest.com/enter-awards/": 1,
   "https://www.fundaciontelefonica.com/noticias/enlighted-awards-2021/": 0
  }
 }
