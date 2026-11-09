@@ -108,16 +108,15 @@
    "since": "2026-10-28"
   },
   "https://www.learningtechnologies.co.uk/learning-tech-awards/enter-an-award/presentation-guidelines": {
-   "hash": "434f138643fdbf695e1e60b06ca1f97591c28752cd3883f158c91700c8c33921",
+   "hash": "f8d61eac8672e3e7a09556ae5fead472594ad3d2ec5cd1ed03d86216b70500ee",
    "fechas": [
     "11 nov 2026",
-    "11 november",
     "11 november 2026",
     "5 may 2027",
     "6 may 2027"
    ],
    "estados": [],
-   "since": "2026-10-28"
+   "since": "2026-11-09"
   },
   "https://www.ifema.es/simo-educacion/noticias/35-experiencias-finalistas-xiv-premios-innovacion-educativa": {
    "hash": "fecfcec6684ecf5b3516583ccea32e3728819089349764265f969020ad754a8c",
@@ -255,7 +254,7 @@
    "since": "2026-10-28"
   },
   "https://www.unesco.org/en/articles/unesco-ict-prize-awards-dynamic-projects-promoting-creativity-and-critical-thinking-finland-and": {
-   "hash": "f1df959bc04545b154d7ff7e9c1138c53a6c95e300f05cf45fdf92288fd63159",
+   "hash": "a2e4588d3facb31657b8af67f9ad01b523c74ebe92f873311d29e84bf20a9a81",
    "fechas": [
     "13 january 2027",
     "15 january 2027",
@@ -263,14 +262,13 @@
     "18 december 2026",
     "20 april 2027",
     "23 april 2027",
-    "6 november 2026",
-    "7 november 2026",
+    "9 november 2026",
     "9 september 2026"
    ],
    "estados": [
     "now open"
    ],
-   "since": "2026-11-07"
+   "since": "2026-11-09"
   },
   "https://www.unesco.org/en/prizes/ict-education": {
    "hash": "f43d0c782f7cbeedfedc813e757a5c242dfe2798b227b90391300c5fe9149171",
@@ -338,16 +336,16 @@
    "since": "2026-10-28"
   },
   "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": {
-   "hash": "f711513d17c55a4843afa05543ebf2bd4f68c741763243670e26555c4e1d7f5f",
+   "hash": "0b56409f863e08098385cba4b7396c3c438e22be9283921caaf1b9ace4b92b1e",
    "fechas": [
     "01/28/2026",
-    "05 noviembre 2026",
     "06 noviembre 2026",
+    "08 noviembre 2026",
     "28/01/2026",
     "29 de enero"
    ],
    "estados": [],
-   "since": "2026-11-07"
+   "since": "2026-11-09"
   },
   "https://tecprize.tec.mx/es": {
    "hash": "e39a6bd168774056c5fccef9f73c569a084e89812b6ce247f7727fe25885e332",
@@ -390,6 +388,14 @@
    ],
    "estados": [],
    "since": "2026-10-28"
+  },
+  "https://www.rie360.mx/premio.html": {
+   "hash": "685ff5fe32d4de5a57a103c3c6cb24f45055959ffd96578f98dc73a8deea0607",
+   "fechas": [],
+   "estados": [
+    "abierta"
+   ],
+   "since": "2026-11-09"
   }
  },
  "sent": {
@@ -413,24 +419,24 @@
   "https://content.qs.com/reimagine2025/2025_QS_Reimagine_Education_Awards_Category_Winners.pdf": 0,
   "https://qsrea.evessiocloud.com/reimagine2026/en/page/frequently-asked-questions": 0,
   "https://learnx.live/": 0,
-  "https://bettawards.com/winners-2026/": 8,
-  "https://bettawards.com/": 8,
+  "https://bettawards.com/winners-2026/": 9,
+  "https://bettawards.com/": 9,
   "https://gesawards.io/winners/2025": 0,
   "https://gesawards.io/": 0,
   "https://www.wise-qatar.org/innovation/wise-prize-for-education": 0,
   "https://www.unesco.org/en/articles/unesco-ict-prize-awards-dynamic-projects-promoting-creativity-and-critical-thinking-finland-and": 0,
   "https://www.unesco.org/en/prizes/ict-education": 0,
-  "https://edtechbreakthrough.com/edtech-2026-winners/": 8,
-  "https://edtechbreakthrough.com/": 8,
+  "https://edtechbreakthrough.com/edtech-2026-winners/": 9,
+  "https://edtechbreakthrough.com/": 9,
   "https://asia.bettshow.com/page/bett-asia-awards": 0,
   "https://brasil.bettshow.com/bett-blog/conheca-os-vencedores-premio-edtech-awards-bett-brasil": 0,
   "https://brasil.bettshow.com/bett-blog/bett-brasil-edtech-awards-abre-inscricoes-para-startups-que-estao-transformando-educacao": 0,
   "https://conecta.tec.mx/es/noticias/nacional/educacion/simulador-laboral-de-procesos-criticos-gana-tecprize-2025": 0,
   "https://tecprize.tec.mx/es": 0,
   "https://www.uv.mx/dgdaie/la-universidad-veracruzana-destaca-en-el-premio-rie-360-a-la-innovacion-educativa/": 0,
-  "https://www.rie360.mx/premio.html": 14,
-  "https://www.edtechdigest.com/2026-finalists-winners/": 8,
-  "https://www.edtechdigest.com/enter-awards/": 8,
+  "https://www.rie360.mx/premio.html": 0,
+  "https://www.edtechdigest.com/2026-finalists-winners/": 9,
+  "https://www.edtechdigest.com/enter-awards/": 9,
   "https://www.fundaciontelefonica.com/noticias/enlighted-awards-2021/": 0
  }
 }
