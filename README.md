@@ -27,6 +27,17 @@ Sitio estático (sin build) pensado para `calendario.yohual.com`.
 - `ALERT_TO`: el correo donde quieres recibir los avisos.
 Prueba manual: pestaña Actions → "Vigilancia diaria" → Run workflow.
 
+## Avisos por correo para visitantes
+La campana de cada tarjeta (o el botón "Avisarme por correo" dentro de ella) permite seguir un premio.
+- La cuenta es la misma de los demás sitios de yohual.com (`acceso.yohual.com`): se verifica el correo una vez
+  y el calendario pide su propio consentimiento.
+- La lista de premios que sigue cada persona se guarda en el servidor (Cloudflare D1), no en este repositorio.
+- Cada mañana (8:00 CDMX) el servidor lee `awards.json` y manda un solo correo por persona con los cierres y
+  aperturas a 30, 14, 7, 1 y 0 días de los premios que sigue. Cada correo trae un enlace de baja en un clic.
+- Las claves que se siguen son los `id` de `awards.json`: **no cambies ni reutilices un `id`**.
+- Código: `alertas.js` y `alertas.css`. Si cambias el texto de consentimiento de `alertas.js`, sube también
+  `VERSION_TEXTO` aquí y la versión de `calendario` en el Worker (`CONSENTIMIENTOS`).
+
 ## Calendario suscribible
 `https://calendario.yohual.com/calendario.ics` (se regenera solo).
 - Apple/iOS y Outlook respetan las alarmas incluidas (14, 7 y 1 día antes, 9:00).
